@@ -12,10 +12,12 @@
        ignores the animation still shows the complete bar rather than an empty one. -->
   <clipPath id="l-wipe"><rect class="wipe" x="60" y="84" width="1080" height="26"/></clipPath>
   <style>
-    .wipe { animation: wipe 7s cubic-bezier(.16,.9,.28,1) infinite; }
-    .dot  { animation: pulse 7s ease-in-out infinite; }
-    @keyframes wipe  { 0%{width:0} 55%,100%{width:1080px} }
-    @keyframes pulse { 0%,45%{opacity:.25} 62%,100%{opacity:1} }
+    /* Runs once and holds. An infinite loop would leave the chart empty or
+       half-drawn much of the time, and this one carries data. */
+    .wipe { animation: wipe 1.5s cubic-bezier(.16,.9,.28,1) .2s 1 both; }
+    .dot  { animation: pulse 1.5s ease-out .2s 1 both; }
+    @keyframes wipe  { from{width:0} to{width:1080px} }
+    @keyframes pulse { 0%{opacity:.2} 100%{opacity:1} }
     @media (prefers-reduced-motion: reduce){ .wipe,.dot{animation:none} }
   </style>
 </defs>

@@ -12,13 +12,15 @@
     <path d="M24 0H0V24" fill="none" stroke="#8fb0ff" stroke-opacity=".06"/>
   </pattern>
   <style>
-    .b    { transform-origin: center bottom; animation: grow 8s cubic-bezier(.2,.85,.3,1) infinite; }
-    .w    { animation: lamp 8s steps(1,end) infinite; }
+    /* Bars run once and hold: they carry data, so a loop would show wrong heights
+       most of the time. Windows, crane and floodlight keep looping, they are scenery. */
+    .b    { transform-origin: center bottom; animation: grow 1.7s cubic-bezier(.2,.85,.3,1) .15s 1 both; }
+    .w    { animation: lamp 6s ease-in-out 1.6s infinite; }
     .jib  { transform-origin: 148px 68px; animation: slew 9s ease-in-out infinite; }
     .load { animation: lift 9s ease-in-out infinite; }
     .beam { animation: sweep 6s ease-in-out infinite; }
-    @keyframes grow  { 0%{transform:scaleY(.02)} 55%,100%{transform:scaleY(1)} }
-    @keyframes lamp  { 0%,52%{opacity:.1} 60%,100%{opacity:1} }
+    @keyframes grow  { from{transform:scaleY(.02)} to{transform:scaleY(1)} }
+    @keyframes lamp  { 0%,100%{opacity:1} 50%{opacity:.45} }
     @keyframes slew  { 0%,100%{transform:rotate(0deg)} 50%{transform:rotate(9deg)} }
     @keyframes lift  { 0%,100%{transform:translateY(0)} 50%{transform:translateY(46px)} }
     @keyframes sweep { 0%,100%{opacity:.15} 50%{opacity:.5} }

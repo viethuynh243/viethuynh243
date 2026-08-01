@@ -70,9 +70,6 @@ Reach     github.com/viethuynh243
   </picture>
 </div>
 
-The snake eats a year of commits, one square at a time. Regenerated nightly by
-[Platane/snk](https://github.com/Platane/snk).
-
 <div align="center">
   <img src="./assets/activity.svg" alt="Commits I authored per repository, drawn as a skyline under construction" width="100%" />
 </div>
@@ -103,9 +100,6 @@ The snake eats a year of commits, one square at a time. Regenerated nightly by
 <div align="center">
   <img src="./assets/languages.svg" alt="Language breakdown across 20 repositories" width="100%" />
 </div>
-
-Every language is listed, with nothing rolled into an "other" bucket. Counted from working
-copies of all 20 repositories I own, public and private, with forks and prose files left out.
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
