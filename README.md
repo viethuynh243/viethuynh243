@@ -68,9 +68,11 @@ Reach     github.com/viethuynh243
 
 ## Metrics
 
+<!-- Un-comment once METRICS_TOKEN is set and the Metrics workflow has run once (see SETUP.md).
 <div align="center">
   <img src="./github-metrics.svg" alt="GitHub metrics" width="100%" />
 </div>
+-->
 
 <div align="center">
 
