@@ -1,7 +1,9 @@
 name: 3D contribution calendar
 
+# The README shows the contribution snake instead, so this runs on demand only.
+# To put a 3D board back: run this workflow, then embed one of the files it commits
+# under profile-3d-contrib/ (profile-season-animate.svg is the animated one).
 on:
-  schedule: [{ cron: "30 18 * * *" }]   # 01:30 Ha Noi
   workflow_dispatch:
 
 permissions:

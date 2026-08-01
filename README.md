@@ -70,12 +70,8 @@ Reach     github.com/viethuynh243
   </picture>
 </div>
 
-<div align="center">
-  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="Animated isometric 3D contribution calendar, seasonal colours" width="100%" />
-</div>
-
-Regenerated nightly by
-[github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib).
+The snake eats a year of commits, one square at a time. Regenerated nightly by
+[Platane/snk](https://github.com/Platane/snk).
 
 <div align="center">
   <img src="./assets/activity.svg" alt="Commits I authored per repository, drawn as a skyline under construction" width="100%" />
