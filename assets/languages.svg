@@ -8,17 +8,13 @@
     <path d="M24 0H0V24" fill="none" stroke="#8fb0ff" stroke-opacity=".06"/>
   </pattern>
   <clipPath id="l-round"><rect x="60" y="84" width="1080" height="26" rx="6"/></clipPath>
-  <!-- The bar is revealed by a wipe. The rect ships at full width, so a browser that
-       ignores the animation still shows the complete bar rather than an empty one. -->
-  <clipPath id="l-wipe"><rect class="wipe" x="60" y="84" width="1080" height="26"/></clipPath>
   <style>
-    /* Runs once and holds. An infinite loop would leave the chart empty or
-       half-drawn much of the time, and this one carries data. */
-    .wipe { animation: wipe 1.5s cubic-bezier(.16,.9,.28,1) .2s 1 both; }
-    .dot  { animation: pulse 1.5s ease-out .2s 1 both; }
-    @keyframes wipe  { from{width:0} to{width:1080px} }
-    @keyframes pulse { 0%{opacity:.2} 100%{opacity:1} }
-    @media (prefers-reduced-motion: reduce){ .wipe,.dot{animation:none} }
+    /* The bar itself is static. An animated clip-path is not honoured by every SVG
+       renderer GitHub puts this through, and a chart that sometimes draws empty is
+       worse than one that never moves. Only the legend dots fade in. */
+    .dot { animation: pulse 1.4s ease-out .2s 1 both; }
+    @keyframes pulse { from{opacity:.2} to{opacity:1} }
+    @media (prefers-reduced-motion: reduce){ .dot{animation:none} }
   </style>
 </defs>
 
@@ -36,7 +32,7 @@
 
 <!-- stacked bar. Each segment wipes in from the left. -->
 <g clip-path="url(#l-round)">
-  <g clip-path="url(#l-wipe)">
+  <g>
     <rect x="60"     y="84" width="580.3" height="26" fill="#3572A5"/>
     <rect x="640.3"  y="84" width="208.9" height="26" fill="#f34b7d"/>
     <rect x="849.2"  y="84" width="148.5" height="26" fill="#178600"/>
