@@ -14,7 +14,7 @@
   <style>
     .b    { transform-origin: center bottom; animation: grow 8s cubic-bezier(.2,.85,.3,1) infinite; }
     .w    { animation: lamp 8s steps(1,end) infinite; }
-    .jib  { transform-origin: 148px 44px; animation: slew 9s ease-in-out infinite; }
+    .jib  { transform-origin: 148px 68px; animation: slew 9s ease-in-out infinite; }
     .load { animation: lift 9s ease-in-out infinite; }
     .beam { animation: sweep 6s ease-in-out infinite; }
     @keyframes grow  { 0%{transform:scaleY(.02)} 55%,100%{transform:scaleY(1)} }
@@ -34,19 +34,19 @@
 <text x="1166" y="34" fill="#6e7681" font-family="ui-monospace,Consolas,monospace" font-size="11" text-anchor="end">1,526 total &#183; square-root height scale &#183; 2026-08-01</text>
 
 <!-- site floodlight -->
-<path class="beam" d="M120 40 L40 262 L300 262 Z" fill="#ffd166" opacity=".2"/>
+<path class="beam" d="M120 64 L40 262 L300 262 Z" fill="#ffd166" opacity=".2"/>
 
 <!-- tower crane over the tallest -->
 <g stroke="#ffb020" stroke-width="2.6" fill="none">
-  <path d="M148 262V44"/>
-  <path d="M140 244l8-8 8 8M140 200l8-8 8 8M140 156l8-8 8 8M140 112l8-8 8 8M140 68l8-8 8 8" stroke-width="1.3" stroke-opacity=".65"/>
+  <path d="M148 262V68"/>
+  <path d="M140 244l8-8 8 8M140 200l8-8 8 8M140 156l8-8 8 8M140 112l8-8 8 8" stroke-width="1.3" stroke-opacity=".65"/>
   <g class="jib">
-    <path d="M92 44h150"/>
-    <path d="M148 30 L92 44M148 30 L226 44" stroke-width="1.5" stroke-opacity=".8"/>
-    <path d="M148 30v14"/>
+    <path d="M92 68h150"/>
+    <path d="M148 54 L92 68M148 54 L226 68" stroke-width="1.5" stroke-opacity=".8"/>
+    <path d="M148 54v14"/>
     <g class="load">
-      <path d="M214 44v30" stroke="#e6edf3" stroke-width="1.2"/>
-      <rect x="200" y="74" width="28" height="8" rx="2" fill="#8fa5cc" stroke="none"/>
+      <path d="M214 68v28" stroke="#e6edf3" stroke-width="1.2"/>
+      <rect x="200" y="96" width="28" height="8" rx="2" fill="#8fa5cc" stroke="none"/>
     </g>
   </g>
 </g>
