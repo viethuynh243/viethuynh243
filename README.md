@@ -1,6 +1,8 @@
+<!-- Hallmark - pre-emit critique: P5 H4 E4 S5 R4 V5 -->
+
 <div align="center">
 
-<img src="./assets/header.svg" alt="Viet Huynh — structural and systems engineer, Ha Noi" width="100%" />
+<img src="./assets/hero.svg" alt="Viet Huynh, structural and systems engineer in Ha Noi" width="100%" />
 
 <img src="https://img.shields.io/badge/TEDI-CoreBIM--AI-1f6feb?style=flat-square" alt="" />
 <img src="https://img.shields.io/badge/HUST-Optimization%20research-3fb950?style=flat-square" alt="" />
@@ -9,7 +11,7 @@
 
 </div>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## About
 
@@ -23,13 +25,9 @@ Rule I work by: **deterministic where an answer must be defensible, models where
 Focus     bridge foundations · RC & prestressed sections · geotechnical pipelines
 Also      combinatorial optimization · LLM tool-calling agents · full-stack delivery
 Security  GRC · IAM · cryptography · cloud & container · DFIR/CTI · RE · web3
-Stack     Python · C# / .NET · TypeScript · Go · Dart · SQL
+Stack     Python · C# / .NET · TypeScript · Go · Dart · Rust · SQL
 Reach     github.com/viethuynh243
 ```
-
----
-
-## Stack
 
 <div align="center">
 
@@ -37,7 +35,7 @@ Reach     github.com/viethuynh243
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Dart](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -48,7 +46,7 @@ Reach     github.com/viethuynh243
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 ![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Qt](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
 ![Ghidra](https://img.shields.io/badge/Ghidra-FF6E00?style=for-the-badge&logo=ghidra&logoColor=white)
 
@@ -60,81 +58,96 @@ Reach     github.com/viethuynh243
 
 </div>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Contributions
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution calendar" width="100%" />
+  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="Animated 3D contribution calendar" width="100%" />
 </div>
 
----
-
-## Metrics
-
-<!-- Un-comment once METRICS_TOKEN is set and the Metrics workflow has run once (see SETUP.md).
 <div align="center">
-  <img src="./github-metrics.svg" alt="GitHub metrics" width="100%" />
+  <img src="./assets/activity.svg" alt="Commits I authored per repository, drawn as a skyline under construction" width="100%" />
 </div>
+
+<!-- METRICS CARDS. These six appear once METRICS_TOKEN is set and the Metrics workflow
+     has run once. Delete this comment marker and the closing one to switch them on.
+     See SETUP.md step 2.
+
+<div align="center">
+  <img src="./metrics.overview.svg"     alt="Overview"     width="100%" />
+  <img src="./metrics.isocalendar.svg"  alt="Isometric contribution calendar" width="100%" />
+  <img src="./metrics.languages.svg"    alt="Languages in depth" width="49%" />
+  <img src="./metrics.habits.svg"       alt="Coding habits" width="49%" />
+  <img src="./metrics.achievements.svg" alt="Achievements" width="49%" />
+  <img src="./metrics.topics.svg"       alt="Topics"       width="49%" />
+</div>
+
 -->
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=viethuynh243&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&title_color=3fb950&icon_color=1f6feb&hide_title=true" height="165" alt="" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=viethuynh243&layout=compact&langs_count=8&hide_border=true&theme=github_dark&title_color=3fb950&exclude_repo=Diamorphine,rootkit,bigint" height="165" alt="" />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=viethuynh243&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&title_color=3fb950&icon_color=1f6feb&hide_title=true" height="165" alt="" />
 </div>
 
-> Public cards read public repositories only. The bulk of my work is private client and
-> research code, so the table below is the honest picture.
+<img src="./assets/divider.svg" alt="" width="100%" />
 
----
+## Languages
+
+<div align="center">
+  <img src="./assets/languages.svg" alt="Language breakdown across 20 repositories" width="100%" />
+</div>
+
+Every language is listed, with nothing rolled into an "other" bucket. Counted from working
+copies of all 20 repositories I own, public and private, with forks and prose files left out.
+
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Work
 
-Counts measured from working copies on 2026-08-01. 🔒 = private.
+I authored **1,526 commits** across these repositories, measured on 2026-08-01.
+Where a repository has several contributors, the count is mine alone, not the repository total.
+🔒 marks a private repository.
 
-### Structural &amp; geotechnical — TEDI
+### Structural and geotechnical, at TEDI
 
-| Project | What it does | Stack | Commits |
+| Project | What it does | Stack | My commits |
 |---|---|---|:--:|
-| [**OptApp**](https://github.com/viethuynh243/OptApp) | Cuts pile count on bridge foundations. NSGA-II search, every candidate scored by the exact MCOC engine — no surrogate. | Python · Tkinter | 42 |
-| **TEDI-Vision** 🔒 | Borehole PDFs in, pile-capacity table out. Deterministic rules on TCVN 11823-10:2017, plus a review sheet flagging every cell an engineer must check. | Python · OCR | 28 |
-| **TEDI-BRAIN** 🔒 | Flags expired standards cited in bridge and road design dossiers. | Python | 16 |
-| **geosct** 🔒 | Pile capacity as an importable library — soil profile in, capacity out, engineer in the loop. | Python · YAML | — |
+| **MCOC Python** 🔒 | Full port of MCOC, the in-house spatial rigid pile-cap analysis package, from VB6 to Python. Deviation against the original engine stays under 0.1% across the whole test corpus. Ships a Qt desktop app, a CLI, batch mode, Excel and PDF reports, section audit and a licensing system. 1,066 tests green. | Python · PySide6 | **460** of 471 |
+| [**OptApp**](https://github.com/viethuynh243/OptApp) | Cuts pile count on bridge foundations. NSGA-II search, with every candidate scored by the exact MCOC engine rather than a surrogate, because contractors only accept exact numbers. | Python · Tkinter | **53** of 60 |
+| **TEDI-Vision** 🔒 | Borehole PDFs in, pile-capacity table out. Deterministic rules on TCVN 11823-10:2017, plus a review sheet flagging every cell an engineer must check. It reads, it does not guess. | Python · OCR | **28** |
+| **TEDI-BRAIN** 🔒 | Flags expired standards cited in bridge and road design dossiers, resolving every TCVN and QCVN reference against its current legal status. | Python | **16** |
+| **geosct** 🔒 | Pile capacity as an importable library. Soil profile in, capacity out, engineer in the loop. | Python · YAML | **2** |
 
-### Optimization &amp; research
+### Optimization and research
 
-| Project | What it does | Stack | Commits |
+| Project | What it does | Stack | My commits |
 |---|---|---|:--:|
-| **SapLichThiWeb** 🔒 | Schedules every exam at HUST. Graph coloring → bin packing → simulated annealing, solver progress streaming to the browser. | .NET 8 · Blazor | 551 |
-| [**BaoPhuCam**](https://github.com/viethuynh243/BaoPhuCam) | Places surveillance cameras for maximum coverage. Line-of-sight over a real master plan. Deployed at Jackfruit Village. | Python | 14 |
-| **Result_saplichthi** 🔒 | Benchmarks the schedulers against each other across 36 result sets. | Python · pandas | — |
+| [**BaoPhuCam**](https://github.com/viethuynh243/BaoPhuCam) | Places surveillance cameras for maximum coverage, running line-of-sight over a real master plan where buildings, trees and water all block. Deployed at Jackfruit Village. | Python | **14** |
+| **SapLichThiWeb** 🔒 | Exam scheduling for HUST: graph coloring, then bin packing, then simulated annealing, with solver progress streaming to the browser. A team project. | .NET 8 · Blazor | **23** of 606 |
 
 ### Platforms
 
-| Project | What it does | Stack | Commits |
+| Project | What it does | Stack | My commits |
 |---|---|---|:--:|
-| **STEMSquad** 🔒 | Runs a student organization end to end — members, projects, finance, inventory, CRM, HR. 64 tables, migration-first. | React · Supabase | 225 |
-| **CoreBIM_AI_Platform** 🔒 | Web platform for TEDI's CoreBIM-AI unit. React 19 SPA, Express 5 API, one compose file for the stack. | React 19 · Express | 48 |
-| **slay-hub** 🔒 | Check-in, CMS and admin console for a community org, on Supabase edge functions. | TypeScript · Supabase | 23 |
-| **36streets** 🔒 | AI trip planner — swap a stop and the day reschedules around it, with group expense splitting. | Flutter · Go · MongoDB | 11 |
+| **STEMSquad** 🔒 | Runs a student organization end to end: members, projects, finance, inventory, CRM and HR. 64 tables across 13 domains, migration-first. | React · Supabase | **225** of 234 |
+| **CoreBIM_AI_Platform** 🔒 | Web platform for TEDI's CoreBIM-AI unit. React 19 SPA, Express 5 API, one compose file for the whole stack. | React 19 · Express | **48** |
+| **slay-hub** 🔒 | Check-in, CMS and admin console for a community org, on Supabase edge functions. | TypeScript · Supabase | **23** |
+| **36streets** 🔒 | AI trip planner. Swap a stop and the rest of the day reschedules around it. Group expense splitting included. | Flutter · Go · MongoDB | **13** of 17 |
 
-### AI agents &amp; tooling
+### AI agents and tooling
 
-| Project | What it does | Stack | Commits |
+| Project | What it does | Stack | My commits |
 |---|---|---|:--:|
-| **tieu-mich** 🔒 | Discord butler on a Claude tool-calling loop over a RAG knowledge base, with minigames, voice tracking and a ticket queue. | Python · Claude API | 570 |
-| **new-mcoin** 🔒 | Discord economy game — progression, blind auctions, daily decay balancing. | Python | 99 |
-| [**agentic-seo-marketing**](https://github.com/viethuynh243/agentic-seo-marketing) | Astro SSG engine plus a React control dashboard, with serverless connectors for GSC, GA4, Meta and TikTok. | Astro · React · Vercel | — |
-| [**kpi-google-sheets-onedrive-automation**](https://github.com/viethuynh243/kpi-google-sheets-onedrive-automation) | Pulls KPI data between Google Sheets and OneDrive on a schedule. | Python | — |
+| **tieu-mich** 🔒 | Discord butler on a Claude tool-calling loop over a RAG knowledge base, with minigames, voice tracking and a ticket queue. My largest codebase. | Python · Claude API | **583** of 585 |
+| [**agentic-seo-marketing**](https://github.com/viethuynh243/agentic-seo-marketing) | Astro SSG engine plus a React control dashboard, with serverless connectors for GSC, GA4, Meta and TikTok. | Astro · React · Vercel | |
+| [**kpi-google-sheets-onedrive-automation**](https://github.com/viethuynh243/kpi-google-sheets-onedrive-automation) | Moves KPI data between Google Sheets and OneDrive on a schedule. | Python | |
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Security
 
-A private lab I keep reproducible — seven domains, each with its own skills sheet, tooling
-and templates. Defensive and authorized-testing work only; findings are verified
+A private lab I keep reproducible: seven domains, each with its own skills sheet, tooling
+and templates. Defensive and authorized-testing work only. Findings are verified
 exploitable before they are reported, and scope decisions are written down as ADRs.
 
 | Domain | Covers |
@@ -142,36 +155,35 @@ exploitable before they are reported, and scope decisions are written down as AD
 | **GRC** | Control frameworks, policy mapping, audit evidence templates |
 | **IAM** | Identity protocols (OIDC, SAML, OAuth), policy design, least-privilege review |
 | **Cryptography** | Algorithm selection, key management, protocol misuse review |
-| **Cloud &amp; container** | Platform hardening, compliance baselines, image and runtime checks |
-| **DFIR &amp; threat intel** | Case workflow, evidence handling, IOC feeds, forensic triage |
+| **Cloud and container** | Platform hardening, compliance baselines, image and runtime checks |
+| **DFIR and threat intel** | Case workflow, evidence handling, IOC feeds, forensic triage |
 | **Reverse engineering** | Static and dynamic analysis, instrumented labs, binary triage |
 | **Web3** | Contract audit workflow, exploit-class labs, review templates |
 
-Environment is disposable by design: Kali and Ubuntu boxes provisioned from Vagrantfiles,
-so a lab is rebuilt rather than repaired.
+The environment is disposable by design. Kali and Ubuntu boxes come up from Vagrantfiles,
+so a lab gets rebuilt rather than repaired.
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 ## What I bring
 
 | | |
 |---|---|
-| **Numerical engines** | RC and prestressed section analysis, moment–curvature, P–M and biaxial interaction, slenderness. Verified against reference engines to the last displayed digit. |
-| **Optimization** | NSGA-II, simulated annealing, graph coloring, bin packing — budgeted search when each evaluation is expensive and has to stay exact. |
+| **Numerical engines** | RC and prestressed section analysis, moment-curvature, P-M and biaxial interaction, slenderness. Verified against reference engines to the last displayed digit. |
+| **Optimization** | NSGA-II, simulated annealing, graph coloring, bin packing, under an evaluation budget when each call is expensive. |
 | **AI systems** | LLM tool-calling agents, RAG retrieval, OCR and document pipelines. |
 | **Full-stack** | React, TypeScript, .NET 8 with Blazor, Supabase and Postgres, Flutter, Go, Docker. Migration-first schemas, documented decisions. |
-| **Binary &amp; format analysis** | Decompilation, file-format recovery and oracle test harnesses — keeping decades-old engineering calculations running on machines that no longer support them. |
+| **Binary and format analysis** | Decompilation, file-format recovery and oracle test harnesses, keeping decades-old engineering calculations running on machines that no longer support them. |
 | **Security** | Seven-domain lab covering GRC, IAM, cryptography, cloud and container, DFIR/CTI, reverse engineering and web3. Defensive and authorized testing only. |
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 <div align="center">
 
-**Open to structural-software and optimization work.**
-Most repositories are private — ask and I will walk you through any of them.
+### Open to structural-software and optimization work.
+
+Most repositories are private. Ask and I will walk you through any of them.
 
 <a href="https://github.com/viethuynh243"><img src="https://img.shields.io/badge/GitHub-@viethuynh243-181717?style=for-the-badge&logo=github" alt="" /></a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3fb950,50:1f6feb,100:0d1117&height=110&section=footer" alt="" />
 
 </div>
