@@ -1,13 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:3fb950&height=190&section=header&text=Viet%20Huynh&fontSize=58&fontColor=ffffff&fontAlignY=34&desc=Structural%20%26%20systems%20engineer%20%C2%B7%20Ha%20Noi&descAlignY=54&descSize=16" alt="" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&weight=500&size=19&duration=3600&pause=900&color=3FB950&center=true&vCenter=true&width=760&lines=I+build+the+software+structural+engineers+actually+run.;Bridge+foundations+%C2%B7+RC+sections+%C2%B7+geotechnical+pipelines;NSGA-II+%C2%B7+simulated+annealing+%C2%B7+graph+coloring;LLM+tool-calling+agents+in+production" alt="" />
-
-<br/>
+<img src="./assets/header.svg" alt="Viet Huynh — structural and systems engineer, Ha Noi" width="100%" />
 
 <img src="https://img.shields.io/badge/TEDI-CoreBIM--AI-1f6feb?style=flat-square" alt="" />
 <img src="https://img.shields.io/badge/HUST-Optimization%20research-3fb950?style=flat-square" alt="" />
+<img src="https://img.shields.io/badge/Security-7%20domains-f85149?style=flat-square" alt="" />
 <img src="https://komarev.com/ghpvc/?username=viethuynh243&style=flat-square&color=8b949e&label=profile+views" alt="" />
 
 </div>
@@ -25,6 +22,7 @@ Rule I work by: **deterministic where an answer must be defensible, models where
 ```text
 Focus     bridge foundations · RC & prestressed sections · geotechnical pipelines
 Also      combinatorial optimization · LLM tool-calling agents · full-stack delivery
+Security  GRC · IAM · cryptography · cloud & container · DFIR/CTI · RE · web3
 Stack     Python · C# / .NET · TypeScript · Go · Dart · SQL
 Reach     github.com/viethuynh243
 ```
@@ -53,6 +51,12 @@ Reach     github.com/viethuynh243
 ![Qt](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
 ![Ghidra](https://img.shields.io/badge/Ghidra-FF6E00?style=for-the-badge&logo=ghidra&logoColor=white)
+
+![Kali](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Burp](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![ZAP](https://img.shields.io/badge/OWASP%20ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Vagrant](https://img.shields.io/badge/Vagrant-1868F2?style=for-the-badge&logo=vagrant&logoColor=white)
 
 </div>
 
@@ -127,6 +131,27 @@ Counts measured from working copies on 2026-08-01. 🔒 = private.
 
 ---
 
+## Security
+
+A private lab I keep reproducible — seven domains, each with its own skills sheet, tooling
+and templates. Defensive and authorized-testing work only; findings are verified
+exploitable before they are reported, and scope decisions are written down as ADRs.
+
+| Domain | Covers |
+|---|---|
+| **GRC** | Control frameworks, policy mapping, audit evidence templates |
+| **IAM** | Identity protocols (OIDC, SAML, OAuth), policy design, least-privilege review |
+| **Cryptography** | Algorithm selection, key management, protocol misuse review |
+| **Cloud &amp; container** | Platform hardening, compliance baselines, image and runtime checks |
+| **DFIR &amp; threat intel** | Case workflow, evidence handling, IOC feeds, forensic triage |
+| **Reverse engineering** | Static and dynamic analysis, instrumented labs, binary triage |
+| **Web3** | Contract audit workflow, exploit-class labs, review templates |
+
+Environment is disposable by design: Kali and Ubuntu boxes provisioned from Vagrantfiles,
+so a lab is rebuilt rather than repaired.
+
+---
+
 ## What I bring
 
 | | |
@@ -136,6 +161,7 @@ Counts measured from working copies on 2026-08-01. 🔒 = private.
 | **AI systems** | LLM tool-calling agents, RAG retrieval, OCR and document pipelines. |
 | **Full-stack** | React, TypeScript, .NET 8 with Blazor, Supabase and Postgres, Flutter, Go, Docker. Migration-first schemas, documented decisions. |
 | **Binary &amp; format analysis** | Decompilation, file-format recovery and oracle test harnesses — keeping decades-old engineering calculations running on machines that no longer support them. |
+| **Security** | Seven-domain lab covering GRC, IAM, cryptography, cloud and container, DFIR/CTI, reverse engineering and web3. Defensive and authorized testing only. |
 
 ---
 
