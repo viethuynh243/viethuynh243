@@ -8,12 +8,15 @@
     <path d="M24 0H0V24" fill="none" stroke="#8fb0ff" stroke-opacity=".06"/>
   </pattern>
   <clipPath id="l-round"><rect x="60" y="84" width="1080" height="26" rx="6"/></clipPath>
+  <!-- The bar is revealed by a wipe. The rect ships at full width, so a browser that
+       ignores the animation still shows the complete bar rather than an empty one. -->
+  <clipPath id="l-wipe"><rect class="wipe" x="60" y="84" width="1080" height="26"/></clipPath>
   <style>
-    .seg  { transform-origin: 60px 84px; animation: fill 7s cubic-bezier(.16,.9,.28,1) infinite; }
+    .wipe { animation: wipe 7s cubic-bezier(.16,.9,.28,1) infinite; }
     .dot  { animation: pulse 7s ease-in-out infinite; }
-    @keyframes fill  { 0%{transform:scaleX(0)} 55%,100%{transform:scaleX(1)} }
+    @keyframes wipe  { 0%{width:0} 55%,100%{width:1080px} }
     @keyframes pulse { 0%,45%{opacity:.25} 62%,100%{opacity:1} }
-    @media (prefers-reduced-motion: reduce){ .seg,.dot{animation:none} }
+    @media (prefers-reduced-motion: reduce){ .wipe,.dot{animation:none} }
   </style>
 </defs>
 
@@ -31,17 +34,19 @@
 
 <!-- stacked bar. Each segment wipes in from the left. -->
 <g clip-path="url(#l-round)">
-  <g class="seg"><rect x="60"     y="84" width="580.3" height="26" fill="#3572A5"/></g>
-  <g class="seg" style="animation-delay:-.10s"><rect x="640.3"  y="84" width="208.9" height="26" fill="#f34b7d"/></g>
-  <g class="seg" style="animation-delay:-.20s"><rect x="849.2"  y="84" width="148.5" height="26" fill="#178600"/></g>
-  <g class="seg" style="animation-delay:-.30s"><rect x="997.7"  y="84" width="42.1"  height="26" fill="#3178c6"/></g>
-  <g class="seg" style="animation-delay:-.40s"><rect x="1039.8" y="84" width="39.0"  height="26" fill="#f1e05a"/></g>
-  <g class="seg" style="animation-delay:-.50s"><rect x="1078.8" y="84" width="21.6"  height="26" fill="#e38c00"/></g>
-  <g class="seg" style="animation-delay:-.60s"><rect x="1100.4" y="84" width="16.2"  height="26" fill="#00B4AB"/></g>
-  <g class="seg" style="animation-delay:-.70s"><rect x="1116.6" y="84" width="9.6"   height="26" fill="#663399"/></g>
-  <g class="seg" style="animation-delay:-.80s"><rect x="1126.2" y="84" width="7.9"   height="26" fill="#00ADD8"/></g>
-  <g class="seg" style="animation-delay:-.90s"><rect x="1134.1" y="84" width="4.5"   height="26" fill="#5391FE"/></g>
-  <g class="seg" style="animation-delay:-1.0s"><rect x="1138.6" y="84" width="1.5"   height="26" fill="#89e051"/></g>
+  <g clip-path="url(#l-wipe)">
+    <rect x="60"     y="84" width="580.3" height="26" fill="#3572A5"/>
+    <rect x="640.3"  y="84" width="208.9" height="26" fill="#f34b7d"/>
+    <rect x="849.2"  y="84" width="148.5" height="26" fill="#178600"/>
+    <rect x="997.7"  y="84" width="42.1"  height="26" fill="#3178c6"/>
+    <rect x="1039.8" y="84" width="39.0"  height="26" fill="#f1e05a"/>
+    <rect x="1078.8" y="84" width="21.6"  height="26" fill="#e38c00"/>
+    <rect x="1100.4" y="84" width="16.2"  height="26" fill="#00B4AB"/>
+    <rect x="1116.6" y="84" width="9.6"   height="26" fill="#663399"/>
+    <rect x="1126.2" y="84" width="7.9"   height="26" fill="#00ADD8"/>
+    <rect x="1134.1" y="84" width="4.5"   height="26" fill="#5391FE"/>
+    <rect x="1138.6" y="84" width="1.5"   height="26" fill="#89e051"/>
+  </g>
 </g>
 
 <!-- scale, drawing convention -->
