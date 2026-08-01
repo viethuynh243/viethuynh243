@@ -1,39 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 58" width="1200" height="58" role="img" aria-label="Road plan strip with chainage marks">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 46" width="1200" height="46" role="img" aria-label="Road plan strip with chainage marks">
 <defs>
-  <linearGradient id="asf" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#1b2540"/><stop offset="1" stop-color="#121a30"/>
-  </linearGradient>
   <style>
-    .lane { animation: run 2.4s linear infinite; }
-    .roll { animation: cross 14s linear infinite; }
-    @keyframes run   { to { transform: translateX(-48px); } }
-    @keyframes cross { 0%{transform:translateX(-60px)} 100%{transform:translateX(1240px)} }
+    .lane { animation: run 3s linear infinite; }
+    .roll { animation: cross 18s linear infinite; }
+    @keyframes run   { 0%{transform:translateX(0)} 100%{transform:translateX(-60px)} }
+    @keyframes cross { 0%{transform:translateX(0)} 100%{transform:translateX(1200px)} }
     @media (prefers-reduced-motion: reduce){ .lane,.roll{animation:none} }
   </style>
 </defs>
 
-<rect y="18" width="1200" height="24" fill="url(#asf)"/>
-<path d="M0 18h1200M0 42h1200" stroke="#5d6f99" stroke-width="1.2" stroke-opacity=".75"/>
+<rect width="1200" height="46" fill="#ffffff"/>
 
-<g clip-path="inset(18px 0 16px 0)">
+<path d="M0 14h1200M0 36h1200" stroke="#1f2933" stroke-width="1.2"/>
+
+<g clip-path="inset(14px 0 10px 0)">
   <g class="lane">
-    <path d="M-48 30h28M12 30h28M72 30h28M132 30h28M192 30h28M252 30h28M312 30h28M372 30h28M432 30h28M492 30h28M552 30h28M612 30h28M672 30h28M732 30h28M792 30h28M852 30h28M912 30h28M972 30h28M1032 30h28M1092 30h28M1152 30h28M1212 30h28"
-          stroke="#d29922" stroke-width="2.4" stroke-opacity=".85"/>
+    <path d="M-60 25h30M0 25h30M60 25h30M120 25h30M180 25h30M240 25h30M300 25h30M360 25h30M420 25h30M480 25h30M540 25h30M600 25h30M660 25h30M720 25h30M780 25h30M840 25h30M900 25h30M960 25h30M1020 25h30M1080 25h30M1140 25h30M1200 25h30"
+          stroke="#b06000" stroke-width="1.6"/>
   </g>
 </g>
 
-<g stroke="#5d6f99" stroke-width="1" stroke-opacity=".6" fill="none">
-  <path d="M100 12v6M300 12v6M500 12v6M700 12v6M900 12v6M1100 12v6"/>
-  <path d="M100 42v6M300 42v6M500 42v6M700 42v6M900 42v6M1100 42v6"/>
+<g stroke="#8c99ab" stroke-width=".9" fill="none">
+  <path d="M100 8v6M300 8v6M500 8v6M700 8v6M900 8v6M1100 8v6"/>
+  <path d="M100 36v6M300 36v6M500 36v6M700 36v6M900 36v6M1100 36v6"/>
 </g>
-<g fill="#5d6f99" font-family="ui-monospace,Consolas,monospace" font-size="8" letter-spacing="1.1" text-anchor="middle">
-  <text x="100" y="9">KM0+000</text><text x="300" y="9">KM0+200</text><text x="500" y="9">KM0+400</text>
-  <text x="700" y="9">KM0+600</text><text x="900" y="9">KM0+800</text><text x="1100" y="9">KM1+000</text>
+<g fill="#8c99ab" font-family="ui-monospace,Consolas,monospace" font-size="7.5" letter-spacing="1" text-anchor="middle">
+  <text x="100" y="6">KM0+000</text><text x="300" y="6">KM0+200</text><text x="500" y="6">KM0+400</text>
+  <text x="700" y="6">KM0+600</text><text x="900" y="6">KM0+800</text><text x="1100" y="6">KM1+000</text>
 </g>
 
-<g class="roll">
-  <rect x="0" y="16" width="26" height="10" rx="2" fill="#ffb020"/>
-  <circle cx="6"  cy="30" r="5" fill="#e6edf3"/>
-  <circle cx="21" cy="29" r="4" fill="#8fa5cc"/>
+<g class="roll" fill="none" stroke="#1f2933" stroke-width="1.2">
+  <rect x="0" y="13" width="24" height="9"/>
+  <circle cx="6" cy="27" r="5"/>
+  <circle cx="19" cy="26" r="4"/>
 </g>
 </svg>
