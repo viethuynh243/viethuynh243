@@ -63,8 +63,29 @@ Reach     github.com/viethuynh243
 ## Contributions
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="Animated 3D contribution calendar" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./assets/snake/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/snake/snake-light.svg" />
+    <img src="./assets/snake/snake-dark.svg" alt="A snake eating my contribution graph" width="100%" />
+  </picture>
 </div>
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="Animated isometric 3D contribution calendar, seasonal colours" width="100%" />
+</div>
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" alt="Contributions as a night city view" width="49%" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Contributions in rainbow tiles" width="49%" />
+</div>
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-gitblock.svg" alt="Contributions as stacked git blocks" width="49%" />
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="Animated green isometric contribution calendar" width="49%" />
+</div>
+
+Six views of the same year, all regenerated nightly by
+[github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib).
 
 <div align="center">
   <img src="./assets/activity.svg" alt="Commits I authored per repository, drawn as a skyline under construction" width="100%" />
