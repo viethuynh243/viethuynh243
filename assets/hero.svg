@@ -28,7 +28,7 @@
     .tw2  { animation: tw 5.1s ease-in-out infinite; animation-delay:-1.7s; }
     .win  { animation: win 6s steps(1,end) infinite; }
     .cbl  { stroke-dasharray: 260; stroke-dashoffset: 260; animation: draw 5.2s ease-out infinite; }
-    .boom { transform-origin: 172px 214px; animation: swing 7s ease-in-out infinite; }
+    .boom { transform-origin: 172px 230px; animation: swing 7s ease-in-out infinite; }
     .hook { animation: hoist 7s ease-in-out infinite; }
     .car  { animation: drive 6.5s linear infinite; }
     .carb { animation: driveb 8s linear infinite; }
@@ -39,7 +39,7 @@
     @keyframes win   { 0%,45%{opacity:.15} 50%,100%{opacity:.9} }
     @keyframes draw  { 0%{stroke-dashoffset:260} 45%,100%{stroke-dashoffset:0} }
     @keyframes swing { 0%,100%{transform:rotate(0deg)} 50%{transform:rotate(-11deg)} }
-    @keyframes hoist { 0%,100%{transform:translateY(0)} 45%{transform:translateY(34px)} 60%{transform:translateY(34px)} }
+    @keyframes hoist { 0%,100%{transform:translateY(0)} 45%{transform:translateY(20px)} 60%{transform:translateY(20px)} }
     @keyframes drive { 0%{transform:translateX(0);opacity:0} 6%{opacity:1} 94%{opacity:1} 100%{transform:translateX(700px);opacity:0} }
     @keyframes driveb{ 0%{transform:translateX(700px);opacity:0} 6%{opacity:1} 94%{opacity:1} 100%{transform:translateX(0);opacity:0} }
     @keyframes rise  { 0%{transform:scaleY(.05)} 70%,100%{transform:scaleY(1)} }
@@ -173,25 +173,6 @@
   <g class="carb" style="animation-delay:-3.5s"><rect x="490" y="230" width="9" height="4" rx="1.6" fill="#ff6b6b"/></g>
 </g>
 
-<!-- crawler crane lifting a girder -->
-<g>
-  <rect x="150" y="248" width="66" height="14" rx="3" fill="#26324f"/>
-  <circle cx="164" cy="262" r="5" fill="#1a2440"/><circle cx="182" cy="262" r="5" fill="#1a2440"/>
-  <circle cx="200" cy="262" r="5" fill="#1a2440"/>
-  <rect x="158" y="228" width="34" height="22" rx="3" fill="#ffb020"/>
-  <g class="boom" stroke="#ffb020" stroke-width="4" fill="none" stroke-linecap="round">
-    <path d="M172 214 L318 108"/>
-    <path d="M172 214 L318 108" stroke="#0b1426" stroke-width="1" stroke-dasharray="6 9"/>
-  </g>
-  <g class="hook">
-    <path d="M318 108 V150" stroke="#e6edf3" stroke-width="1.4" fill="none"/>
-    <rect x="286" y="150" width="64" height="9" rx="2" fill="#8fa5cc"/>
-    <rect x="286" y="150" width="64" height="3" rx="1.5" fill="#c9d6f2"/>
-    <g class="spark" fill="#ffe08a"><circle cx="290" cy="160" r="2.2"/><circle cx="346" cy="160" r="1.8"/></g>
-  </g>
-  <circle cx="318" cy="104" r="2.4" fill="#f85149" class="beacon"/>
-</g>
-
 <!-- haul road on site, trucks running -->
 <g>
   <rect x="0" y="250" width="560" height="12" fill="#141d33"/>
@@ -207,6 +188,25 @@
     <rect x="24" y="238" width="12" height="12" rx="2" fill="#1f6feb"/>
     <circle cx="7" cy="251" r="3.2" fill="#0b1426"/><circle cx="31" cy="251" r="3.2" fill="#0b1426"/>
   </g>
+</g>
+
+<!-- crawler crane placing a girder. Kept below the text block on purpose. -->
+<g>
+  <rect x="140" y="246" width="66" height="14" rx="3" fill="#26324f"/>
+  <circle cx="154" cy="260" r="4.6" fill="#1a2440"/><circle cx="172" cy="260" r="4.6" fill="#1a2440"/>
+  <circle cx="190" cy="260" r="4.6" fill="#1a2440"/>
+  <rect x="150" y="228" width="32" height="19" rx="3" fill="#ffb020"/>
+  <g class="boom" stroke="#ffb020" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M172 230 L308 208"/>
+    <path d="M172 230 L308 208" stroke="#0b1426" stroke-width="1" stroke-dasharray="6 9"/>
+  </g>
+  <g class="hook">
+    <path d="M308 208 V228" stroke="#e6edf3" stroke-width="1.4" fill="none"/>
+    <rect x="280" y="228" width="60" height="8" rx="2" fill="#8fa5cc"/>
+    <rect x="280" y="228" width="60" height="3" rx="1.5" fill="#c9d6f2"/>
+    <g class="spark" fill="#ffe08a"><circle cx="284" cy="238" r="2.2"/><circle cx="336" cy="238" r="1.8"/></g>
+  </g>
+  <circle cx="308" cy="205" r="2.4" fill="#f85149" class="beacon"/>
 </g>
 
 <!-- ground line + hatch (drawing convention) -->
