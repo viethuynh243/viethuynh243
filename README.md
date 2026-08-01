@@ -90,8 +90,16 @@ Reach     github.com/viethuynh243
 -->
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=viethuynh243&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&title_color=3fb950&icon_color=1f6feb&hide_title=true" height="165" alt="" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=viethuynh243&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="" width="100%" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=viethuynh243&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&title_color=3fb950&icon_color=1f6feb&hide_title=true" height="160" alt="" />
+<img src="https://streak-stats.demolab.com/?user=viethuynh243&hide_border=true&theme=github-dark&ring=3FB950&fire=D29922&currStreakLabel=58A6FF" height="160" alt="" />
+
 </div>
+
+> These three read public repositories only. Most of my work is private client and research
+> code, so the charts above and the tables below are the honest picture.
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
