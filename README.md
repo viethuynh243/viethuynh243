@@ -74,20 +74,14 @@ Reach     github.com/viethuynh243
   <img src="./assets/activity.svg" alt="Commits I authored per repository, drawn as a skyline under construction" width="100%" />
 </div>
 
-<!-- METRICS CARDS. These six appear once METRICS_TOKEN is set and the Metrics workflow
-     has run once. Delete this comment marker and the closing one to switch them on.
-     See SETUP.md step 2.
-
 <div align="center">
-  <img src="./metrics.overview.svg"     alt="Overview"     width="100%" />
-  <img src="./metrics.isocalendar.svg"  alt="Isometric contribution calendar" width="100%" />
-  <img src="./metrics.languages.svg"    alt="Languages in depth" width="49%" />
-  <img src="./metrics.habits.svg"       alt="Coding habits" width="49%" />
-  <img src="./metrics.achievements.svg" alt="Achievements" width="49%" />
-  <img src="./metrics.topics.svg"       alt="Topics"       width="49%" />
+  <img src="./metrics.overview.svg"     alt="Repository overview"              width="100%" />
+  <img src="./metrics.isocalendar.svg"  alt="Isometric contribution calendar"  width="100%" />
+  <img src="./metrics.languages.svg"    alt="Languages in depth"               width="49%" />
+  <img src="./metrics.habits.svg"       alt="Coding habits"                    width="49%" />
+  <img src="./metrics.achievements.svg" alt="Achievements"                     width="49%" />
+  <img src="./metrics.topics.svg"       alt="Repository topics"                width="49%" />
 </div>
-
--->
 
 
 <img src="./assets/divider.svg" alt="" width="100%" />
