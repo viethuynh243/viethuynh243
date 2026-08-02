@@ -2,17 +2,17 @@
   "generatedAt": "2026-08-02",
   "repoCount": 23,
   "repos": {
+    "viethuynh243": {
+      "mine": 22,
+      "total": 34,
+      "private": false,
+      "url": "https://github.com/viethuynh243/viethuynh243"
+    },
     "TEDI-BRAIN": {
       "mine": 122,
       "total": 122,
       "private": true,
       "url": "https://github.com/viethuynh243/TEDI-BRAIN"
-    },
-    "viethuynh243": {
-      "mine": 21,
-      "total": 32,
-      "private": false,
-      "url": "https://github.com/viethuynh243/viethuynh243"
     },
     "viethuynh243.github.io": {
       "mine": 7,
@@ -153,8 +153,8 @@
       "url": "https://github.com/manh354/SapLichThiWeb-BachKhoa"
     },
     "tieu-mich": {
-      "mine": 577,
-      "total": 577,
+      "mine": 587,
+      "total": 587,
       "private": true,
       "url": "https://github.com/hethongsieucapbot/tieu-mich"
     }
@@ -163,44 +163,44 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 6758449,
-      "pct": 51.27
+      "bytes": 6834562,
+      "pct": 51.55
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 20.65
+      "pct": 20.54
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
       "bytes": 1357293,
-      "pct": 10.3
+      "pct": 10.24
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
       "bytes": 1165880,
-      "pct": 8.84
+      "pct": 8.79
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
       "bytes": 430750,
-      "pct": 3.27
+      "pct": 3.25
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 2.51
+      "pct": 2.49
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.63
+      "pct": 1.62
     },
     {
       "name": "PowerShell",
@@ -236,7 +236,7 @@
       "name": "VBScript",
       "color": "#15dcdc",
       "bytes": 1984,
-      "pct": 0.02
+      "pct": 0.01
     },
     {
       "name": "Swift",
@@ -265,39 +265,39 @@
   ],
   "display": {
     "repoCount": 23,
-    "totalCommits": 1282,
+    "totalCommits": 1292,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
       {
         "display": "tieu-mich",
-        "mine": 577,
+        "mine": 587,
         "pct": 100
       },
       {
         "display": "STEMSquad",
         "mine": 224,
-        "pct": 38.8
+        "pct": 38.2
       },
       {
         "display": "MCOC Python",
         "mine": 170,
-        "pct": 29.5
+        "pct": 29
       },
       {
         "display": "TEDI-BRAIN",
         "mine": 122,
-        "pct": 21.1
+        "pct": 20.8
       },
       {
         "display": "CoreBIM-AI",
         "mine": 48,
-        "pct": 8.3
+        "pct": 8.2
       },
       {
         "display": "OptApp",
         "mine": 36,
-        "pct": 6.2
+        "pct": 6.1
       },
       {
         "display": "TEDI-Vision",
@@ -307,7 +307,7 @@
       {
         "display": "slay-hub",
         "mine": 23,
-        "pct": 4
+        "pct": 3.9
       }
     ]
   }
