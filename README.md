@@ -63,11 +63,18 @@ Reach     github.com/viethuynh243
 ## Activity
 
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="./assets/snake/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/snake/snake-light.svg" />
+    <img src="./assets/snake/snake-dark.svg" alt="A snake eating my contribution graph" width="100%" />
+  </picture>
+</div>
+
+<div align="center">
   <img src="./assets/activity.svg" alt="Commits I authored per repository" width="100%" />
 </div>
 
 <div align="center">
-  <img src="./metrics.overview.svg"     alt="Repository overview"  width="100%" />
   <img src="./metrics.languages.svg"    alt="Languages in depth"   width="49%" />
   <img src="./metrics.achievements.svg" alt="Achievements"         width="49%" />
   <img src="./metrics.topics.svg"       alt="Repository topics"    width="49%" />
