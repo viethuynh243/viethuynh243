@@ -11,7 +11,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" alt="" width="100%" />
+<img src="./assets/divider.svg?v=1" alt="" width="100%" />
 
 ## About
 
@@ -58,7 +58,7 @@ Reach     github.com/viethuynh243
 
 </div>
 
-<img src="./assets/divider.svg" alt="" width="100%" />
+<img src="./assets/divider.svg?v=1" alt="" width="100%" />
 
 ## Activity
 
@@ -81,7 +81,7 @@ Reach     github.com/viethuynh243
 </div>
 
 
-<img src="./assets/divider.svg" alt="" width="100%" />
+<img src="./assets/divider.svg?v=1" alt="" width="100%" />
 
 ## Work
 
@@ -126,7 +126,7 @@ I authored **1,292** commits across the repositories below, last refreshed 2026-
 
 <!-- STATS:END -->
 
-<img src="./assets/divider.svg" alt="" width="100%" />
+<img src="./assets/divider.svg?v=1" alt="" width="100%" />
 
 ## Security
 
@@ -147,7 +147,7 @@ exploitable before they are reported, and scope decisions are written down as AD
 The environment is disposable by design. Kali and Ubuntu boxes come up from Vagrantfiles,
 so a lab gets rebuilt rather than repaired.
 
-<img src="./assets/divider.svg" alt="" width="100%" />
+<img src="./assets/divider.svg?v=1" alt="" width="100%" />
 
 ## What I bring
 
@@ -160,7 +160,7 @@ so a lab gets rebuilt rather than repaired.
 | **Binary and format analysis** | Decompilation, file-format recovery and oracle test harnesses, keeping decades-old engineering calculations running on machines that no longer support them. |
 | **Security** | Seven-domain lab covering GRC, IAM, cryptography, cloud and container, DFIR/CTI, reverse engineering and web3. Defensive and authorized testing only. |
 
-<img src="./assets/divider.svg" alt="" width="100%" />
+<img src="./assets/divider.svg?v=1" alt="" width="100%" />
 
 <div align="center">
 
