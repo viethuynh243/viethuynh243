@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-08-01",
+  "repoCount": 20,
+  "repos": {
+    "MCOC-Python": {
+      "mine": 460,
+      "total": 471,
+      "private": true,
+      "url": ""
+    },
+    "OptApp": {
+      "mine": 53,
+      "total": 60,
+      "private": false,
+      "url": "https://github.com/viethuynh243/OptApp"
+    },
+    "TEDI-Vision": {
+      "mine": 28,
+      "total": 28,
+      "private": true,
+      "url": ""
+    },
+    "TEDI-BRAIN": {
+      "mine": 16,
+      "total": 16,
+      "private": true,
+      "url": ""
+    },
+    "geosct": {
+      "mine": 2,
+      "total": 2,
+      "private": true,
+      "url": ""
+    },
+    "BaoPhuCam": {
+      "mine": 14,
+      "total": 14,
+      "private": false,
+      "url": "https://github.com/viethuynh243/BaoPhuCam"
+    },
+    "SapLichThiWeb-BachKhoa": {
+      "mine": 23,
+      "total": 606,
+      "private": true,
+      "url": ""
+    },
+    "STEMSquad": {
+      "mine": 225,
+      "total": 234,
+      "private": true,
+      "url": ""
+    },
+    "CoreBIM_AI_Platform": {
+      "mine": 48,
+      "total": 48,
+      "private": true,
+      "url": ""
+    },
+    "slay-hub": {
+      "mine": 23,
+      "total": 23,
+      "private": true,
+      "url": ""
+    },
+    "36streets": {
+      "mine": 13,
+      "total": 17,
+      "private": true,
+      "url": ""
+    },
+    "tieu-mich": {
+      "mine": 583,
+      "total": 585,
+      "private": true,
+      "url": ""
+    }
+  },
+  "languages": [
+    {
+      "name": "Python",
+      "color": "#3572A5",
+      "bytes": 5373000,
+      "pct": 53.73
+    },
+    {
+      "name": "C++",
+      "color": "#f34b7d",
+      "bytes": 1200000,
+      "pct": 12
+    },
+    {
+      "name": "C#",
+      "color": "#178600",
+      "bytes": 1375000,
+      "pct": 13.75
+    },
+    {
+      "name": "C",
+      "color": "#555555",
+      "bytes": 734000,
+      "pct": 7.34
+    },
+    {
+      "name": "TypeScript",
+      "color": "#3178c6",
+      "bytes": 390000,
+      "pct": 3.9
+    },
+    {
+      "name": "JavaScript",
+      "color": "#f1e05a",
+      "bytes": 361000,
+      "pct": 3.61
+    },
+    {
+      "name": "SQL",
+      "color": "#e38c00",
+      "bytes": 200000,
+      "pct": 2
+    },
+    {
+      "name": "Dart",
+      "color": "#00B4AB",
+      "bytes": 150000,
+      "pct": 1.5
+    },
+    {
+      "name": "Go",
+      "color": "#00ADD8",
+      "bytes": 73000,
+      "pct": 0.73
+    },
+    {
+      "name": "PowerShell",
+      "color": "#012456",
+      "bytes": 42000,
+      "pct": 0.42
+    },
+    {
+      "name": "Shell",
+      "color": "#89e051",
+      "bytes": 14000,
+      "pct": 0.14
+    }
+  ],
+  "display": {
+    "repoCount": 20,
+    "totalCommits": 1488,
+    "languageCount": 11,
+    "activeSince": 2024,
+    "activity": [
+      {
+        "display": "tieu-mich",
+        "mine": 583,
+        "pct": 100
+      },
+      {
+        "display": "MCOC Python",
+        "mine": 460,
+        "pct": 78.9
+      },
+      {
+        "display": "STEMSquad",
+        "mine": 225,
+        "pct": 38.6
+      },
+      {
+        "display": "OptApp",
+        "mine": 53,
+        "pct": 9.1
+      },
+      {
+        "display": "CoreBIM-AI",
+        "mine": 48,
+        "pct": 8.2
+      },
+      {
+        "display": "TEDI-Vision",
+        "mine": 28,
+        "pct": 4.8
+      },
+      {
+        "display": "SapLichThiWeb",
+        "mine": 23,
+        "pct": 3.9
+      },
+      {
+        "display": "slay-hub",
+        "mine": 23,
+        "pct": 3.9
+      }
+    ]
+  }
+}

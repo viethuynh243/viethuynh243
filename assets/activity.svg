@@ -1,66 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Commits I authored per repository: tieu-mich 583, MCOC Python 460, STEMSquad 225, OptApp 53, CoreBIM-AI 48, TEDI-Vision 28, slay-hub 23, TEDI-BRAIN 16">
-<!-- Hallmark - pre-emit critique: P5 H5 E4 S5 R5 V4 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 314" width="1200" height="314" role="img" aria-label="Commits I authored per repository: tieu-mich 583, MCOC Python 460, STEMSquad 225, OptApp 53, CoreBIM-AI 48, TEDI-Vision 28, SapLichThiWeb 23, slay-hub 23">
 <defs>
-  <pattern id="a-mm" width="10" height="10" patternUnits="userSpaceOnUse">
-    <path d="M10 0H0V10" fill="none" stroke="#dbe3ee" stroke-width=".6"/>
-  </pattern>
-  <pattern id="a-cm" width="50" height="50" patternUnits="userSpaceOnUse">
-    <path d="M50 0H0V50" fill="none" stroke="#c2cede" stroke-width=".9"/>
-  </pattern>
-  <pattern id="a-h1" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1.4" height="6" fill="#0b57d0"/></pattern>
-  <pattern id="a-h2" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1.4" height="6" fill="#137333"/></pattern>
-  <pattern id="a-h3" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1.4" height="6" fill="#b06000"/></pattern>
-  <pattern id="a-h4" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1.4" height="6" fill="#7b1fa2"/></pattern>
-  <pattern id="a-h5" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1.4" height="6" fill="#c5221f"/></pattern>
-  <pattern id="a-h6" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1.4" height="6" fill="#00747a"/></pattern>
-  <pattern id="a-h7" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1.4" height="6" fill="#a6357a"/></pattern>
-  <pattern id="a-h8" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1.4" height="6" fill="#8a6d00"/></pattern>
-  <style>
-    .lvl { animation: level 10s ease-in-out infinite; }
-    @keyframes level { 0%,100%{transform:translateX(0)} 50%{transform:translateX(1000px)} }
-    @media (prefers-reduced-motion: reduce){ .lvl{animation:none} }
-  </style>
+  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#e6ecf5" stroke-width=".8"/></pattern>
+  <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#eaf1fd"/><rect width="1.6" height="6" fill="#0b57d0"/></pattern>
+  <style>.ttl{font:600 20px 'Segoe UI',system-ui,sans-serif;fill:#111927}.nm{font:500 14px 'Segoe UI',system-ui,sans-serif;fill:#3a4658}.val{font:600 13px 'Roboto Mono',ui-monospace,monospace;fill:#0b57d0}</style>
 </defs>
-
-<rect width="1200" height="300" fill="#ffffff"/>
-<rect width="1200" height="300" fill="url(#a-mm)"/>
-<rect width="1200" height="300" fill="url(#a-cm)"/>
-<rect x="10" y="10" width="1180" height="280" fill="none" stroke="#1f2933" stroke-width="1.4"/>
-
-<text x="40" y="40" fill="#111927" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing=".2">COMMITS I AUTHORED, BY REPOSITORY</text>
-<text x="1160" y="40" fill="#5a6472" font-family="ui-monospace,Consolas,monospace" font-size="10" text-anchor="end">1,526 TOTAL &#183; SQUARE-ROOT HEIGHT SCALE &#183; 2026-08-01</text>
-<path d="M40 50h1120" stroke="#c2cede" stroke-width="1"/>
-
-<!-- surveyor's level sweeping the section, the only moving part -->
-<g class="lvl"><path d="M76 62v168" stroke="#0b57d0" stroke-width="1" stroke-dasharray="5 4" opacity=".55"/></g>
-
-<!-- bars, drawn as hatched sections on a baseline -->
-<g stroke="#1f2933" stroke-width="1.3">
-  <rect x="60"   y="50"  width="88" height="180" fill="url(#a-h2)"/>
-  <rect x="194"  y="70"  width="88" height="160" fill="url(#a-h1)"/>
-  <rect x="328"  y="118" width="88" height="112" fill="url(#a-h3)"/>
-  <rect x="462"  y="176" width="88" height="54"  fill="url(#a-h4)"/>
-  <rect x="596"  y="178" width="88" height="52"  fill="url(#a-h5)"/>
-  <rect x="730"  y="190" width="88" height="40"  fill="url(#a-h6)"/>
-  <rect x="864"  y="194" width="88" height="36"  fill="url(#a-h7)"/>
-  <rect x="998"  y="200" width="88" height="30"  fill="url(#a-h8)"/>
-</g>
-
-<!-- baseline with ground hatch -->
-<path d="M40 230h1120" stroke="#1f2933" stroke-width="1.6"/>
-<g stroke="#8c99ab" stroke-width=".8">
-  <path d="M48 230l-6 8M68 230l-6 8M88 230l-6 8M108 230l-6 8M128 230l-6 8M148 230l-6 8M168 230l-6 8M188 230l-6 8M208 230l-6 8M228 230l-6 8M248 230l-6 8M268 230l-6 8M288 230l-6 8M308 230l-6 8M328 230l-6 8M348 230l-6 8M368 230l-6 8M388 230l-6 8M408 230l-6 8M428 230l-6 8M448 230l-6 8M468 230l-6 8M488 230l-6 8M508 230l-6 8M528 230l-6 8M548 230l-6 8M568 230l-6 8M588 230l-6 8M608 230l-6 8M628 230l-6 8M648 230l-6 8M668 230l-6 8M688 230l-6 8M708 230l-6 8M728 230l-6 8M748 230l-6 8M768 230l-6 8M788 230l-6 8M808 230l-6 8M828 230l-6 8M848 230l-6 8M868 230l-6 8M888 230l-6 8M908 230l-6 8M928 230l-6 8M948 230l-6 8M968 230l-6 8M988 230l-6 8M1008 230l-6 8M1028 230l-6 8M1048 230l-6 8M1068 230l-6 8M1088 230l-6 8M1108 230l-6 8M1128 230l-6 8M1148 230l-6 8"/>
-</g>
-
-<!-- values and labels -->
-<g text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
-  <g font-size="19" font-weight="700" fill="#111927">
-    <text x="104"  y="262">583</text><text x="238" y="262">460</text><text x="372" y="262">225</text><text x="506" y="262">53</text>
-    <text x="640"  y="262">48</text> <text x="774" y="262">28</text> <text x="908" y="262">23</text> <text x="1042" y="262">16</text>
-  </g>
-  <g font-family="ui-monospace,Consolas,monospace" font-size="9.5" fill="#5a6472" letter-spacing=".5">
-    <text x="104"  y="278">tieu-mich</text><text x="238" y="278">MCOC Python</text><text x="372" y="278">STEMSquad</text><text x="506" y="278">OptApp</text>
-    <text x="640"  y="278">CoreBIM-AI</text><text x="774" y="278">TEDI-Vision</text><text x="908" y="278">slay-hub</text><text x="1042" y="278">TEDI-BRAIN</text>
-  </g>
-</g>
+<rect width="1200" height="314" fill="#ffffff"/>
+<rect width="1200" height="314" fill="url(#grid)"/>
+<text x="24" y="34" class="ttl">Commits I authored, by repository</text>
+  <text x="198" y="69" text-anchor="end" class="nm">tieu-mich</text>
+  <rect x="210" y="58" width="900" height="16" rx="2" fill="url(#hatch)" stroke="#0b57d0" stroke-width=".8"/>
+  <text x="1118" y="69" class="val">583</text>
+  <text x="198" y="99" text-anchor="end" class="nm">MCOC Python</text>
+  <rect x="210" y="88" width="710" height="16" rx="2" fill="url(#hatch)" stroke="#0b57d0" stroke-width=".8"/>
+  <text x="928" y="99" class="val">460</text>
+  <text x="198" y="129" text-anchor="end" class="nm">STEMSquad</text>
+  <rect x="210" y="118" width="347" height="16" rx="2" fill="url(#hatch)" stroke="#0b57d0" stroke-width=".8"/>
+  <text x="565" y="129" class="val">225</text>
+  <text x="198" y="159" text-anchor="end" class="nm">OptApp</text>
+  <rect x="210" y="148" width="82" height="16" rx="2" fill="url(#hatch)" stroke="#0b57d0" stroke-width=".8"/>
+  <text x="300" y="159" class="val">53</text>
+  <text x="198" y="189" text-anchor="end" class="nm">CoreBIM-AI</text>
+  <rect x="210" y="178" width="74" height="16" rx="2" fill="url(#hatch)" stroke="#0b57d0" stroke-width=".8"/>
+  <text x="292" y="189" class="val">48</text>
+  <text x="198" y="219" text-anchor="end" class="nm">TEDI-Vision</text>
+  <rect x="210" y="208" width="43" height="16" rx="2" fill="url(#hatch)" stroke="#0b57d0" stroke-width=".8"/>
+  <text x="261" y="219" class="val">28</text>
+  <text x="198" y="249" text-anchor="end" class="nm">SapLichThiWeb</text>
+  <rect x="210" y="238" width="36" height="16" rx="2" fill="url(#hatch)" stroke="#0b57d0" stroke-width=".8"/>
+  <text x="254" y="249" class="val">23</text>
+  <text x="198" y="279" text-anchor="end" class="nm">slay-hub</text>
+  <rect x="210" y="268" width="36" height="16" rx="2" fill="url(#hatch)" stroke="#0b57d0" stroke-width=".8"/>
+  <text x="254" y="279" class="val">23</text>
 </svg>

@@ -1,0 +1,17 @@
+{
+  "_comment": "Single source of truth for WHO counts as me and HOW languages are filtered. collect-stats.mjs reads this.",
+  "login": "viethuynh243",
+
+  "_authorEmails": "Every email you have ever committed under. GraphQL counts a commit as MINE if its author email is in this list, so it catches commits made under emails that are NOT linked to your GitHub account (e.g. viethq@tedi.com.vn). Add any missing email here rather than editing numbers by hand.",
+  "authorEmails": [
+    "38722547+viethuynh243@users.noreply.github.com",
+    "viethq@tedi.com.vn",
+    "hethongsieucapbot@gmail.com"
+  ],
+
+  "_ignoreLanguages": "Prose / markup excluded from the language mix, mirroring metrics.yml so the README card and the numbers agree.",
+  "ignoreLanguages": ["Markdown", "TeX", "Jupyter Notebook", "HTML", "CSS", "Roff", "Batchfile", "Makefile"],
+
+  "_activeSince": "Earliest year to report on the site counter. Left explicit so an old imported repo cannot drag it backwards.",
+  "activeSince": 2024
+}

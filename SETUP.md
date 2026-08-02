@@ -3,60 +3,87 @@
 This is the profile README repo. It must stay named exactly `viethuynh243`, because
 GitHub renders the README of `<user>/<user>` on the profile page.
 
-## 1. Add the token the workflows need
+## 1. Add the token the workflow needs
 
-Both workflows read private-repo data. Without a token, Metrics fails outright and the 3D
-calendar counts public contributions only.
+The Metrics workflow reads private-repo data. Without a token it fails outright.
 
 1. Create a **classic** PAT at https://github.com/settings/tokens/new with scopes `repo`
-   and `read:user`. Set an expiry you will remember, one year works.
+   and `read:user`. One year expiry works.
 2. Save it as a repository secret named `METRICS_TOKEN` at
    https://github.com/viethuynh243/viethuynh243/settings/secrets/actions
 
-Paste the token straight into that settings page. Do not put it in a file, a commit, or a chat.
+Paste it straight into that settings page. Never put it in a file, a commit, or a chat.
 
-## 2. Run the workflows once
+## 2. Run the workflow once
 
-Actions tab, then **Metrics**, then Run workflow. Then **3D contribution calendar**, Run workflow.
+Actions → **Metrics** → Run workflow. It runs two jobs:
+- `metrics` — the four cards (overview, languages, achievements, topics).
+- `stats` — the live numbers (see below). Runs after `metrics`.
 
-## 3. Switch on the metrics cards
+## Live numbers — one source of truth
 
-Once Metrics has run green, open `README.md`, find the block that starts
-`<!-- METRICS CARDS.` and delete that opening marker plus its closing `-->`.
-Six cards appear: overview, isometric calendar, languages in depth, coding habits,
-achievements, topics.
+Every commit count and language percentage comes from **`data/stats.json`**, regenerated
+nightly by the `stats` job. Nothing is typed by hand anymore, so a number can no longer
+drift between the README, the SVGs and the personal site.
+
+```
+metrics.yml (nightly)
+  └─ node scripts/collect-stats.mjs   → data/stats.json   (GitHub GraphQL: commits + languages)
+  └─ node scripts/render.mjs          → injects README between the STATS markers
+                                        → regenerates assets/activity.svg
+viethuynh243.github.io/index.html  fetches data/stats.json at page load
+```
+
+| File | Role | Edit by hand? |
+|---|---|---|
+| `data/config.json` | who counts as me (`authorEmails`), language filter, `activeSince` | **yes** |
+| `data/projects.json` | project prose: name, description, stack, `repo`, `owner`, `private`, `link` | **yes** |
+| `data/stats.json` | the live numbers | **no** — generated |
+| README `## Work` block | rendered table between `<!-- STATS:START/END -->` | **no** — generated |
+| `assets/activity.svg` | commit bar chart | **no** — generated |
+
+### To change a project's description or stack
+Edit `data/projects.json`, then either push (the nightly job re-renders) or run
+`node scripts/render.mjs` locally and commit. `render.mjs` needs no token.
+
+### To fix a commit count that looks wrong
+Do **not** edit a number. Either:
+- the count excludes commits made under an unlisted email → add that email to
+  `authorEmails` in `data/config.json`; or
+- a project's `repo`/`owner` in `projects.json` does not match a real repo → `render.mjs`
+  prints the available repo names; correct the field. Unmatched projects render `—`.
+
+### Counting method (know this)
+`mine` = commits on a repo's **default branch** whose author email is in `authorEmails`.
+`total` = all commits on the default branch. This counts default-branch only, so it can
+differ slightly from an all-branches `git rev-list --all` count. Grand total = sum of
+`mine` across the projects listed in `projects.json`.
+
+### Why the public contribution calendar was removed
+The isometric calendar, the 3D calendar and the snake all draw the **public** contribution
+graph, which is sparse because most work is in private repos and some commits were authored
+under emails not linked to this account. They made an active profile look idle. To fill the
+real graph instead, add those emails at
+https://github.com/settings/emails and enable *Include private contributions on my profile*.
 
 ## Generated files
 
 | File | Produced by |
 |---|---|
-| `metrics.overview.svg`, `metrics.isocalendar.svg`, `metrics.languages.svg`, `metrics.habits.svg`, `metrics.achievements.svg`, `metrics.topics.svg` | `.github/workflows/metrics.yml` |
-| `profile-3d-contrib/*.svg` | `.github/workflows/profile-3d.yml` |
-
-Everything under `assets/` is hand-drawn and committed, not generated.
+| `metrics.overview.svg`, `metrics.languages.svg`, `metrics.achievements.svg`, `metrics.topics.svg` | `.github/workflows/metrics.yml` (job `metrics`) |
+| `data/stats.json`, `assets/activity.svg`, README `## Work` block | `.github/workflows/metrics.yml` (job `stats`) |
 
 ## Hand-drawn assets
 
 | File | What it is |
 |---|---|
-| `assets/hero.svg` | Animated banner: cable-stayed bridge under construction, city skyline, crawler crane, traffic, barge. Cables draw themselves in on a loop. |
-| `assets/divider.svg` | Road plan strip used between sections. Lane markings run, a roller crosses. |
-| `assets/activity.svg` | Commits I authored per repository, drawn as a skyline that builds itself. Height uses a square-root scale so small repositories stay readable, and every bar carries its real number. |
-| `assets/languages.svg` | Stacked language bar plus a full legend. Every language is named, nothing is rolled into an "other" bucket. |
+| `assets/hero.svg` | Animated banner: cable-stayed bridge under construction. |
+| `assets/divider.svg` | Road-plan strip between sections. |
 
-All four honour `prefers-reduced-motion`, so animation stops for readers who ask for that.
-
-## Editing
-
-- **Project tables** live under `## Work` in `README.md`. Private entries carry 🔒 and no
-  link, because a link to a private repo shows a 404 to visitors.
-- **Commit counts** are commits I authored, not repository totals. Re-measure with
-  `git rev-list --count --all --author='viethuynh243'` before changing a number.
-- **Language percentages** are baked into `assets/languages.svg`. If you recount, update the
-  bar widths, the legend percentages and the total in the caption together.
+Both honour `prefers-reduced-motion`.
 
 ## Deliberately excluded
 
 Reverse-engineering repositories (`Response2000-RE`, `spColumn-RE`) and `security-lab` stay
-off the profile. Their capability still shows up under **What I bring** and **Security**:
-the skill is named, the repositories are not.
+off the profile. Their capability still shows under **Security** and **What I bring**: the
+skill is named, the repositories are not.
