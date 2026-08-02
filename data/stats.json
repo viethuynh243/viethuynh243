@@ -1,36 +1,102 @@
 {
-  "generatedAt": "2026-08-01",
-  "repoCount": 20,
+  "generatedAt": "2026-08-02",
+  "repoCount": 23,
   "repos": {
-    "MCOC-Python": {
-      "mine": 460,
-      "total": 471,
-      "private": true,
-      "url": ""
-    },
-    "OptApp": {
-      "mine": 53,
-      "total": 60,
+    "viethuynh243": {
+      "mine": 21,
+      "total": 31,
       "private": false,
-      "url": "https://github.com/viethuynh243/OptApp"
+      "url": "https://github.com/viethuynh243/viethuynh243"
     },
-    "TEDI-Vision": {
-      "mine": 28,
-      "total": 28,
-      "private": true,
-      "url": ""
+    "viethuynh243.github.io": {
+      "mine": 7,
+      "total": 7,
+      "private": false,
+      "url": "https://github.com/viethuynh243/viethuynh243.github.io"
     },
     "TEDI-BRAIN": {
-      "mine": 16,
-      "total": 16,
+      "mine": 122,
+      "total": 122,
       "private": true,
-      "url": ""
+      "url": "https://github.com/viethuynh243/TEDI-BRAIN"
+    },
+    "security-lab": {
+      "mine": 0,
+      "total": 1,
+      "private": true,
+      "url": "https://github.com/viethuynh243/security-lab"
+    },
+    "CoreBIM_AI_Platform": {
+      "mine": 48,
+      "total": 48,
+      "private": true,
+      "url": "https://github.com/viethuynh243/CoreBIM_AI_Platform"
+    },
+    "slay-hub": {
+      "mine": 23,
+      "total": 23,
+      "private": true,
+      "url": "https://github.com/viethuynh243/slay-hub"
+    },
+    "TEDI-Vision": {
+      "mine": 25,
+      "total": 25,
+      "private": true,
+      "url": "https://github.com/viethuynh243/TEDI-Vision"
+    },
+    "Response2000-RE": {
+      "mine": 20,
+      "total": 20,
+      "private": true,
+      "url": "https://github.com/viethuynh243/Response2000-RE"
     },
     "geosct": {
       "mine": 2,
       "total": 2,
       "private": true,
-      "url": ""
+      "url": "https://github.com/viethuynh243/geosct"
+    },
+    "36streets": {
+      "mine": 13,
+      "total": 17,
+      "private": true,
+      "url": "https://github.com/viethuynh243/36streets"
+    },
+    "spColumn-RE": {
+      "mine": 2,
+      "total": 2,
+      "private": true,
+      "url": "https://github.com/viethuynh243/spColumn-RE"
+    },
+    "liteparse": {
+      "mine": 4,
+      "total": 796,
+      "private": true,
+      "url": "https://github.com/viethuynh243/liteparse"
+    },
+    "OptApp": {
+      "mine": 3,
+      "total": 36,
+      "private": false,
+      "url": "https://github.com/viethuynh243/OptApp"
+    },
+    "STEMSquad": {
+      "mine": 224,
+      "total": 225,
+      "private": true,
+      "url": "https://github.com/viethuynh243/STEMSquad"
+    },
+    "agentic-seo-marketing": {
+      "mine": 1,
+      "total": 1,
+      "private": false,
+      "url": "https://github.com/viethuynh243/agentic-seo-marketing"
+    },
+    "kpi-google-sheets-onedrive-automation": {
+      "mine": 8,
+      "total": 8,
+      "private": false,
+      "url": "https://github.com/viethuynh243/kpi-google-sheets-onedrive-automation"
     },
     "BaoPhuCam": {
       "mine": 14,
@@ -38,156 +104,216 @@
       "private": false,
       "url": "https://github.com/viethuynh243/BaoPhuCam"
     },
+    "WebTuVi": {
+      "mine": 3,
+      "total": 3,
+      "private": true,
+      "url": "https://github.com/viethuynh243/WebTuVi"
+    },
+    "SapLichThiWeb_1": {
+      "mine": 0,
+      "total": 130,
+      "private": true,
+      "url": "https://github.com/viethuynh243/SapLichThiWeb_1"
+    },
+    "Result_saplichthi": {
+      "mine": 4,
+      "total": 4,
+      "private": true,
+      "url": "https://github.com/viethuynh243/Result_saplichthi"
+    },
+    "SapLichThi": {
+      "mine": 0,
+      "total": 1,
+      "private": true,
+      "url": "https://github.com/viethuynh243/SapLichThi"
+    },
+    "Laptrinhham": {
+      "mine": 1,
+      "total": 1,
+      "private": false,
+      "url": "https://github.com/viethuynh243/Laptrinhham"
+    },
+    "desktop-tutorial": {
+      "mine": 0,
+      "total": 0,
+      "private": true,
+      "url": "https://github.com/viethuynh243/desktop-tutorial"
+    },
     "SapLichThiWeb-BachKhoa": {
-      "mine": 23,
-      "total": 606,
+      "mine": 19,
+      "total": 516,
       "private": true,
-      "url": ""
-    },
-    "STEMSquad": {
-      "mine": 225,
-      "total": 234,
-      "private": true,
-      "url": ""
-    },
-    "CoreBIM_AI_Platform": {
-      "mine": 48,
-      "total": 48,
-      "private": true,
-      "url": ""
-    },
-    "slay-hub": {
-      "mine": 23,
-      "total": 23,
-      "private": true,
-      "url": ""
-    },
-    "36streets": {
-      "mine": 13,
-      "total": 17,
-      "private": true,
-      "url": ""
-    },
-    "tieu-mich": {
-      "mine": 583,
-      "total": 585,
-      "private": true,
-      "url": ""
+      "url": "https://github.com/manh354/SapLichThiWeb-BachKhoa"
     }
   },
   "languages": [
     {
-      "name": "Python",
-      "color": "#3572A5",
-      "bytes": 5373000,
-      "pct": 53.73
-    },
-    {
-      "name": "C++",
-      "color": "#f34b7d",
-      "bytes": 1200000,
-      "pct": 12
-    },
-    {
       "name": "C#",
       "color": "#178600",
-      "bytes": 1375000,
-      "pct": 13.75
+      "bytes": 5069254,
+      "pct": 28.42
+    },
+    {
+      "name": "Python",
+      "color": "#3572A5",
+      "bytes": 3954408,
+      "pct": 22.17
     },
     {
       "name": "C",
       "color": "#555555",
-      "bytes": 734000,
-      "pct": 7.34
+      "bytes": 3732414,
+      "pct": 20.93
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 390000,
-      "pct": 3.9
+      "bytes": 1373144,
+      "pct": 7.7
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 361000,
-      "pct": 3.61
+      "bytes": 1246958,
+      "pct": 6.99
     },
     {
-      "name": "SQL",
-      "color": "#e38c00",
-      "bytes": 200000,
-      "pct": 2
+      "name": "Rust",
+      "color": "#dea584",
+      "bytes": 1184540,
+      "pct": 6.64
+    },
+    {
+      "name": "PLpgSQL",
+      "color": "#336790",
+      "bytes": 430750,
+      "pct": 2.42
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
-      "bytes": 150000,
-      "pct": 1.5
+      "bytes": 337902,
+      "pct": 1.89
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "bytes": 73000,
-      "pct": 0.73
+      "bytes": 214405,
+      "pct": 1.2
     },
     {
       "name": "PowerShell",
       "color": "#012456",
-      "bytes": 42000,
-      "pct": 0.42
+      "bytes": 167533,
+      "pct": 0.94
     },
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 14000,
-      "pct": 0.14
+      "bytes": 66845,
+      "pct": 0.37
+    },
+    {
+      "name": "Astro",
+      "color": "#ff5a03",
+      "bytes": 29309,
+      "pct": 0.16
+    },
+    {
+      "name": "Java",
+      "color": "#b07219",
+      "bytes": 10632,
+      "pct": 0.06
+    },
+    {
+      "name": "Dockerfile",
+      "color": "#384d54",
+      "bytes": 10244,
+      "pct": 0.06
+    },
+    {
+      "name": "Inno Setup",
+      "color": "#264b99",
+      "bytes": 2505,
+      "pct": 0.01
+    },
+    {
+      "name": "TSQL",
+      "color": "#e38c00",
+      "bytes": 1709,
+      "pct": 0.01
+    },
+    {
+      "name": "Swift",
+      "color": "#F05138",
+      "bytes": 900,
+      "pct": 0.01
+    },
+    {
+      "name": "Mako",
+      "color": "#7e858d",
+      "bytes": 704,
+      "pct": 0
+    },
+    {
+      "name": "Kotlin",
+      "color": "#A97BFF",
+      "bytes": 125,
+      "pct": 0
+    },
+    {
+      "name": "Objective-C",
+      "color": "#438eff",
+      "bytes": 38,
+      "pct": 0
     }
   ],
   "display": {
-    "repoCount": 20,
-    "totalCommits": 1488,
-    "languageCount": 11,
+    "repoCount": 23,
+    "totalCommits": 502,
+    "languageCount": 20,
     "activeSince": 2024,
     "activity": [
       {
-        "display": "tieu-mich",
-        "mine": 583,
+        "display": "STEMSquad",
+        "mine": 224,
         "pct": 100
       },
       {
-        "display": "MCOC Python",
-        "mine": 460,
-        "pct": 78.9
-      },
-      {
-        "display": "STEMSquad",
-        "mine": 225,
-        "pct": 38.6
-      },
-      {
-        "display": "OptApp",
-        "mine": 53,
-        "pct": 9.1
+        "display": "TEDI-BRAIN",
+        "mine": 122,
+        "pct": 54.5
       },
       {
         "display": "CoreBIM-AI",
         "mine": 48,
-        "pct": 8.2
+        "pct": 21.4
       },
       {
         "display": "TEDI-Vision",
-        "mine": 28,
-        "pct": 4.8
-      },
-      {
-        "display": "SapLichThiWeb",
-        "mine": 23,
-        "pct": 3.9
+        "mine": 25,
+        "pct": 11.2
       },
       {
         "display": "slay-hub",
         "mine": 23,
-        "pct": 3.9
+        "pct": 10.3
+      },
+      {
+        "display": "SapLichThiWeb",
+        "mine": 19,
+        "pct": 8.5
+      },
+      {
+        "display": "BaoPhuCam",
+        "mine": 14,
+        "pct": 6.3
+      },
+      {
+        "display": "36streets",
+        "mine": 13,
+        "pct": 5.8
       }
     ]
   }
