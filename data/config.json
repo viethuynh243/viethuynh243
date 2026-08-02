@@ -5,6 +5,7 @@
   "_authorEmails": "Every email you have ever committed under. GraphQL counts a commit as MINE if its author email is in this list, so it catches commits made under emails that are NOT linked to your GitHub account (e.g. viethq@tedi.com.vn). Add any missing email here rather than editing numbers by hand.",
   "authorEmails": [
     "38722547+viethuynh243@users.noreply.github.com",
+    "viethuynh243@users.noreply.github.com",
     "viethq@tedi.com.vn",
     "hethongsieucapbot@gmail.com"
   ],

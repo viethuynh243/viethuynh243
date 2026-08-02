@@ -55,6 +55,11 @@ const REPO_FIELDS = `
 const repos = {};        // name -> {mine,total,private,url}
 const langBytes = {};     // "Name" -> {bytes, color}
 
+// Only these repos count toward the language mix, so third-party clones/forks kept in the
+// account (cherry-studio, MinerU, …) cannot pollute it. Commit counts are collected for
+// every repo regardless; languages are curated to the projects you actually list.
+const projectRepoNames = new Set(projects.groups.flatMap((g) => g.projects.map((p) => p.repo)));
+
 function absorb(node) {
   if (!node) return;
   const t = node.defaultBranchRef?.target;
@@ -64,6 +69,7 @@ function absorb(node) {
     private: !!node.isPrivate,
     url: node.url,
   };
+  if (!projectRepoNames.has(node.name)) return;   // languages: projects only
   for (const e of node.languages?.edges || []) {
     const nm = e.node?.name;
     if (!nm || ignore.has(nm.toLowerCase())) continue;

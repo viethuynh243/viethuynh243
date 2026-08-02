@@ -12,7 +12,7 @@
     {
       "title": "Structural and geotechnical, at TEDI",
       "projects": [
-        { "repo": "MCOC-Python", "display": "MCOC Python", "private": true, "link": null, "stack": "Python · PySide6", "desc": "Full port of MCOC, the in-house spatial rigid pile-cap analysis package, from VB6 to Python. Deviation against the original engine stays under 0.1% across the whole test corpus. Ships a Qt desktop app, CLI, batch mode, Excel and PDF reports, section audit and licensing." },
+        { "repo": "Mcoc-python", "owner": "PhamVu1505", "display": "MCOC Python", "private": true, "link": null, "stack": "Python · PySide6", "desc": "Full port of MCOC, the in-house spatial rigid pile-cap analysis package, from VB6 to Python. Deviation against the original engine stays under 0.1% across the whole test corpus. Ships a Qt desktop app, CLI, batch mode, Excel and PDF reports, section audit and licensing. Co-authored." },
         { "repo": "OptApp", "display": "OptApp", "private": false, "link": "https://github.com/viethuynh243/OptApp", "stack": "Python · Tkinter", "desc": "Cuts pile count on bridge foundations. NSGA-II search, every candidate scored by the exact MCOC engine rather than a surrogate, because contractors only accept exact numbers." },
         { "repo": "TEDI-Vision", "display": "TEDI-Vision", "private": true, "link": null, "stack": "Python · OCR", "desc": "Borehole PDFs in, pile-capacity table out. Deterministic rules on TCVN 11823-10:2017, plus a review sheet flagging every cell an engineer must check. It reads, it does not guess." },
         { "repo": "TEDI-BRAIN", "display": "TEDI-BRAIN", "private": true, "link": null, "stack": "Python", "desc": "Flags expired standards cited in bridge and road design dossiers, resolving every TCVN and QCVN reference against its current legal status." },
@@ -38,7 +38,7 @@
     {
       "title": "AI agents and tooling",
       "projects": [
-        { "repo": "tieu-mich", "display": "tieu-mich", "private": true, "link": null, "stack": "Python · Claude API", "desc": "Discord butler on a Claude tool-calling loop over a RAG knowledge base, with minigames, voice tracking and a ticket queue. My largest codebase." },
+        { "repo": "tieu-mich", "owner": "hethongsieucapbot", "display": "tieu-mich", "private": true, "link": null, "stack": "Python · Claude API", "desc": "Discord butler on a Claude tool-calling loop over a RAG knowledge base, with minigames, voice tracking and a ticket queue. My largest codebase." },
         { "repo": "agentic-seo-marketing", "display": "agentic-seo-marketing", "private": false, "link": "https://github.com/viethuynh243/agentic-seo-marketing", "stack": "Astro · React · Vercel", "desc": "Astro SSG engine plus a React control dashboard, with serverless connectors for GSC, GA4, Meta and TikTok." },
         { "repo": "kpi-google-sheets-onedrive-automation", "display": "kpi-sheets-onedrive", "private": false, "link": "https://github.com/viethuynh243/kpi-google-sheets-onedrive-automation", "stack": "Python", "desc": "Moves KPI data between Google Sheets and OneDrive on a schedule." }
       ]

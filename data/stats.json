@@ -2,9 +2,15 @@
   "generatedAt": "2026-08-02",
   "repoCount": 23,
   "repos": {
+    "TEDI-BRAIN": {
+      "mine": 122,
+      "total": 122,
+      "private": true,
+      "url": "https://github.com/viethuynh243/TEDI-BRAIN"
+    },
     "viethuynh243": {
       "mine": 21,
-      "total": 31,
+      "total": 32,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
@@ -13,12 +19,6 @@
       "total": 7,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243.github.io"
-    },
-    "TEDI-BRAIN": {
-      "mine": 122,
-      "total": 122,
-      "private": true,
-      "url": "https://github.com/viethuynh243/TEDI-BRAIN"
     },
     "security-lab": {
       "mine": 0,
@@ -75,7 +75,7 @@
       "url": "https://github.com/viethuynh243/liteparse"
     },
     "OptApp": {
-      "mine": 3,
+      "mine": 36,
       "total": 36,
       "private": false,
       "url": "https://github.com/viethuynh243/OptApp"
@@ -140,109 +140,103 @@
       "private": true,
       "url": "https://github.com/viethuynh243/desktop-tutorial"
     },
+    "Mcoc-python": {
+      "mine": 170,
+      "total": 180,
+      "private": true,
+      "url": "https://github.com/PhamVu1505/Mcoc-python"
+    },
     "SapLichThiWeb-BachKhoa": {
       "mine": 19,
       "total": 516,
       "private": true,
       "url": "https://github.com/manh354/SapLichThiWeb-BachKhoa"
+    },
+    "tieu-mich": {
+      "mine": 577,
+      "total": 577,
+      "private": true,
+      "url": "https://github.com/hethongsieucapbot/tieu-mich"
     }
   },
   "languages": [
     {
-      "name": "C#",
-      "color": "#178600",
-      "bytes": 5069254,
-      "pct": 28.42
-    },
-    {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 3954408,
-      "pct": 22.17
+      "bytes": 6758449,
+      "pct": 51.27
     },
     {
-      "name": "C",
-      "color": "#555555",
-      "bytes": 3732414,
-      "pct": 20.93
+      "name": "C#",
+      "color": "#178600",
+      "bytes": 2722637,
+      "pct": 20.65
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 1373144,
-      "pct": 7.7
+      "bytes": 1357293,
+      "pct": 10.3
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1246958,
-      "pct": 6.99
-    },
-    {
-      "name": "Rust",
-      "color": "#dea584",
-      "bytes": 1184540,
-      "pct": 6.64
+      "bytes": 1165880,
+      "pct": 8.84
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
       "bytes": 430750,
-      "pct": 2.42
+      "pct": 3.27
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
-      "bytes": 337902,
-      "pct": 1.89
+      "bytes": 330409,
+      "pct": 2.51
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.2
+      "pct": 1.63
     },
     {
       "name": "PowerShell",
       "color": "#012456",
-      "bytes": 167533,
+      "bytes": 124546,
       "pct": 0.94
     },
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 66845,
-      "pct": 0.37
+      "bytes": 33313,
+      "pct": 0.25
     },
     {
       "name": "Astro",
       "color": "#ff5a03",
       "bytes": 29309,
-      "pct": 0.16
-    },
-    {
-      "name": "Java",
-      "color": "#b07219",
-      "bytes": 10632,
-      "pct": 0.06
-    },
-    {
-      "name": "Dockerfile",
-      "color": "#384d54",
-      "bytes": 10244,
-      "pct": 0.06
+      "pct": 0.22
     },
     {
       "name": "Inno Setup",
       "color": "#264b99",
-      "bytes": 2505,
-      "pct": 0.01
+      "bytes": 6497,
+      "pct": 0.05
     },
     {
-      "name": "TSQL",
-      "color": "#e38c00",
-      "bytes": 1709,
-      "pct": 0.01
+      "name": "Dockerfile",
+      "color": "#384d54",
+      "bytes": 4557,
+      "pct": 0.03
+    },
+    {
+      "name": "VBScript",
+      "color": "#15dcdc",
+      "bytes": 1984,
+      "pct": 0.02
     },
     {
       "name": "Swift",
@@ -254,7 +248,7 @@
       "name": "Mako",
       "color": "#7e858d",
       "bytes": 704,
-      "pct": 0
+      "pct": 0.01
     },
     {
       "name": "Kotlin",
@@ -271,49 +265,49 @@
   ],
   "display": {
     "repoCount": 23,
-    "totalCommits": 502,
-    "languageCount": 20,
+    "totalCommits": 1282,
+    "languageCount": 17,
     "activeSince": 2024,
     "activity": [
       {
+        "display": "tieu-mich",
+        "mine": 577,
+        "pct": 100
+      },
+      {
         "display": "STEMSquad",
         "mine": 224,
-        "pct": 100
+        "pct": 38.8
+      },
+      {
+        "display": "MCOC Python",
+        "mine": 170,
+        "pct": 29.5
       },
       {
         "display": "TEDI-BRAIN",
         "mine": 122,
-        "pct": 54.5
+        "pct": 21.1
       },
       {
         "display": "CoreBIM-AI",
         "mine": 48,
-        "pct": 21.4
+        "pct": 8.3
+      },
+      {
+        "display": "OptApp",
+        "mine": 36,
+        "pct": 6.2
       },
       {
         "display": "TEDI-Vision",
         "mine": 25,
-        "pct": 11.2
+        "pct": 4.3
       },
       {
         "display": "slay-hub",
         "mine": 23,
-        "pct": 10.3
-      },
-      {
-        "display": "SapLichThiWeb",
-        "mine": 19,
-        "pct": 8.5
-      },
-      {
-        "display": "BaoPhuCam",
-        "mine": 14,
-        "pct": 6.3
-      },
-      {
-        "display": "36streets",
-        "mine": 13,
-        "pct": 5.8
+        "pct": 4
       }
     ]
   }
