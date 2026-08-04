@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-03",
-  "repoCount": 24,
+  "generatedAt": "2026-08-04",
+  "repoCount": 25,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 38,
+      "total": 41,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
-    "slay-hub": {
-      "mine": 23,
-      "total": 23,
+    "SPC-Engine": {
+      "mine": 45,
+      "total": 45,
       "private": true,
-      "url": "https://github.com/viethuynh243/slay-hub"
+      "url": "https://github.com/viethuynh243/SPC-Engine"
     },
     "CoreBIM_AI_Platform": {
       "mine": 48,
@@ -21,10 +21,16 @@
       "url": "https://github.com/viethuynh243/CoreBIM_AI_Platform"
     },
     "gaotie-HN-HL": {
-      "mine": 35,
-      "total": 35,
+      "mine": 55,
+      "total": 55,
       "private": true,
       "url": "https://github.com/viethuynh243/gaotie-HN-HL"
+    },
+    "slay-hub": {
+      "mine": 23,
+      "total": 23,
+      "private": true,
+      "url": "https://github.com/viethuynh243/slay-hub"
     },
     "TEDI-BRAIN": {
       "mine": 122,
@@ -159,8 +165,8 @@
       "url": "https://github.com/manh354/SapLichThiWeb-BachKhoa"
     },
     "tieu-mich": {
-      "mine": 594,
-      "total": 594,
+      "mine": 607,
+      "total": 607,
       "private": true,
       "url": "https://github.com/hethongsieucapbot/tieu-mich"
     }
@@ -169,44 +175,44 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 6897118,
-      "pct": 51.78
+      "bytes": 6957404,
+      "pct": 51.99
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 20.44
+      "pct": 20.35
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
       "bytes": 1357293,
-      "pct": 10.19
+      "pct": 10.14
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
       "bytes": 1165880,
-      "pct": 8.75
+      "pct": 8.71
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
       "bytes": 430750,
-      "pct": 3.23
+      "pct": 3.22
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 2.48
+      "pct": 2.47
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.61
+      "pct": 1.6
     },
     {
       "name": "PowerShell",
@@ -217,7 +223,7 @@
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 33313,
+      "bytes": 33982,
       "pct": 0.25
     },
     {
@@ -270,50 +276,50 @@
     }
   ],
   "display": {
-    "repoCount": 24,
-    "totalCommits": 1299,
+    "repoCount": 25,
+    "totalCommits": 1312,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
       {
         "display": "tieu-mich",
-        "mine": 594,
+        "mine": 607,
         "pct": 100
       },
       {
         "display": "STEMSquad",
         "mine": 224,
-        "pct": 37.7
+        "pct": 36.9
       },
       {
         "display": "MCOC Python",
         "mine": 170,
-        "pct": 28.6
+        "pct": 28
       },
       {
         "display": "TEDI-BRAIN",
         "mine": 122,
-        "pct": 20.5
+        "pct": 20.1
       },
       {
         "display": "CoreBIM-AI",
         "mine": 48,
-        "pct": 8.1
+        "pct": 7.9
       },
       {
         "display": "OptApp",
         "mine": 36,
-        "pct": 6.1
+        "pct": 5.9
       },
       {
         "display": "TEDI-Vision",
         "mine": 25,
-        "pct": 4.2
+        "pct": 4.1
       },
       {
         "display": "slay-hub",
         "mine": 23,
-        "pct": 3.9
+        "pct": 3.8
       }
     ]
   }
