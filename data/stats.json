@@ -1,24 +1,36 @@
 {
-  "generatedAt": "2026-08-05",
-  "repoCount": 25,
+  "generatedAt": "2026-08-07",
+  "repoCount": 27,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 44,
+      "total": 47,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
-    "STEMSquad": {
-      "mine": 228,
-      "total": 229,
+    "TEDI-Vision": {
+      "mine": 25,
+      "total": 25,
       "private": true,
-      "url": "https://github.com/viethuynh243/STEMSquad"
+      "url": "https://github.com/viethuynh243/TEDI-Vision"
+    },
+    "ZeroMem": {
+      "mine": 1,
+      "total": 1,
+      "private": false,
+      "url": "https://github.com/viethuynh243/ZeroMem"
     },
     "slay-hub": {
-      "mine": 24,
-      "total": 41,
+      "mine": 55,
+      "total": 72,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
+    },
+    "ZeroMem-private": {
+      "mine": 60,
+      "total": 60,
+      "private": true,
+      "url": "https://github.com/viethuynh243/ZeroMem-private"
     },
     "TEDI-BRAIN": {
       "mine": 160,
@@ -26,11 +38,11 @@
       "private": true,
       "url": "https://github.com/viethuynh243/TEDI-BRAIN"
     },
-    "TEDI-Vision": {
-      "mine": 25,
-      "total": 25,
+    "STEMSquad": {
+      "mine": 228,
+      "total": 229,
       "private": true,
-      "url": "https://github.com/viethuynh243/TEDI-Vision"
+      "url": "https://github.com/viethuynh243/STEMSquad"
     },
     "CoreBIM_AI_Platform": {
       "mine": 48,
@@ -176,55 +188,55 @@
       "name": "Python",
       "color": "#3572A5",
       "bytes": 7167559,
-      "pct": 52.55
+      "pct": 50.82
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 19.96
+      "pct": 19.3
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 1385588,
-      "pct": 10.16
+      "bytes": 1567138,
+      "pct": 11.11
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1166024,
-      "pct": 8.55
+      "bytes": 1383325,
+      "pct": 9.81
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 430750,
-      "pct": 3.16
+      "bytes": 486048,
+      "pct": 3.45
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 2.42
+      "pct": 2.34
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.57
+      "pct": 1.52
     },
     {
       "name": "PowerShell",
       "color": "#012456",
       "bytes": 142807,
-      "pct": 1.05
+      "pct": 1.01
     },
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 33982,
-      "pct": 0.25
+      "bytes": 46423,
+      "pct": 0.33
     },
     {
       "name": "Astro",
@@ -260,7 +272,7 @@
       "name": "Mako",
       "color": "#7e858d",
       "bytes": 704,
-      "pct": 0.01
+      "pct": 0
     },
     {
       "name": "Kotlin",
@@ -276,8 +288,8 @@
     }
   ],
   "display": {
-    "repoCount": 25,
-    "totalCommits": 1357,
+    "repoCount": 27,
+    "totalCommits": 1388,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
@@ -302,6 +314,11 @@
         "pct": 26.3
       },
       {
+        "display": "slay-hub",
+        "mine": 55,
+        "pct": 9
+      },
+      {
         "display": "CoreBIM-AI",
         "mine": 48,
         "pct": 7.9
@@ -315,11 +332,6 @@
         "display": "TEDI-Vision",
         "mine": 25,
         "pct": 4.1
-      },
-      {
-        "display": "slay-hub",
-        "mine": 24,
-        "pct": 3.9
       }
     ]
   }
