@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-07",
+  "generatedAt": "2026-08-08",
   "repoCount": 27,
   "repos": {
-    "viethuynh243": {
-      "mine": 24,
-      "total": 50,
-      "private": false,
-      "url": "https://github.com/viethuynh243/viethuynh243"
-    },
     "slay-hub": {
       "mine": 61,
       "total": 78,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
+    },
+    "viethuynh243": {
+      "mine": 24,
+      "total": 52,
+      "private": false,
+      "url": "https://github.com/viethuynh243/viethuynh243"
     },
     "TEDI-Vision": {
       "mine": 25,
