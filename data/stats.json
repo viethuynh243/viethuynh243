@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-09",
+  "generatedAt": "2026-08-10",
   "repoCount": 27,
   "repos": {
-    "slay-hub": {
-      "mine": 61,
-      "total": 78,
-      "private": true,
-      "url": "https://github.com/viethuynh243/slay-hub"
-    },
     "viethuynh243": {
       "mine": 24,
-      "total": 54,
+      "total": 57,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
+    },
+    "slay-hub": {
+      "mine": 107,
+      "total": 124,
+      "private": true,
+      "url": "https://github.com/viethuynh243/slay-hub"
     },
     "TEDI-Vision": {
       "mine": 25,
@@ -177,8 +177,8 @@
       "url": "https://github.com/manh354/SapLichThiWeb-BachKhoa"
     },
     "tieu-mich": {
-      "mine": 639,
-      "total": 639,
+      "mine": 654,
+      "total": 654,
       "private": true,
       "url": "https://github.com/hethongsieucapbot/tieu-mich"
     }
@@ -187,56 +187,56 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 7377348,
-      "pct": 51.48
+      "bytes": 7594283,
+      "pct": 50.57
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 19
+      "pct": 18.13
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 1584283,
-      "pct": 11.05
+      "bytes": 2024543,
+      "pct": 13.48
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1383325,
-      "pct": 9.65
+      "bytes": 1401464,
+      "pct": 9.33
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 486048,
-      "pct": 3.39
+      "bytes": 496326,
+      "pct": 3.31
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 2.31
+      "pct": 2.2
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.5
+      "pct": 1.43
     },
     {
       "name": "PowerShell",
       "color": "#012456",
       "bytes": 142807,
-      "pct": 1
+      "pct": 0.95
     },
     {
       "name": "Shell",
       "color": "#89e051",
       "bytes": 46423,
-      "pct": 0.32
+      "pct": 0.31
     },
     {
       "name": "Astro",
@@ -248,7 +248,7 @@
       "name": "Inno Setup",
       "color": "#264b99",
       "bytes": 6497,
-      "pct": 0.05
+      "pct": 0.04
     },
     {
       "name": "Dockerfile",
@@ -289,49 +289,49 @@
   ],
   "display": {
     "repoCount": 27,
-    "totalCommits": 1424,
+    "totalCommits": 1485,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
       {
         "display": "tieu-mich",
-        "mine": 639,
+        "mine": 654,
         "pct": 100
       },
       {
         "display": "STEMSquad",
         "mine": 228,
-        "pct": 35.7
+        "pct": 34.9
       },
       {
         "display": "MCOC Python",
         "mine": 170,
-        "pct": 26.6
+        "pct": 26
       },
       {
         "display": "TEDI-BRAIN",
         "mine": 160,
-        "pct": 25
+        "pct": 24.5
       },
       {
         "display": "slay-hub",
-        "mine": 61,
-        "pct": 9.5
+        "mine": 107,
+        "pct": 16.4
       },
       {
         "display": "CoreBIM-AI",
         "mine": 48,
-        "pct": 7.5
+        "pct": 7.3
       },
       {
         "display": "OptApp",
         "mine": 36,
-        "pct": 5.6
+        "pct": 5.5
       },
       {
         "display": "TEDI-Vision",
         "mine": 25,
-        "pct": 3.9
+        "pct": 3.8
       }
     ]
   }
