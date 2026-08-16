@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-15",
+  "generatedAt": "2026-08-16",
   "repoCount": 28,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 69,
+      "total": 72,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
     "slay-hub": {
-      "mine": 120,
-      "total": 146,
+      "mine": 141,
+      "total": 167,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
     },
@@ -193,44 +193,44 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 7779615,
-      "pct": 50.39
+      "bytes": 7779877,
+      "pct": 50.22
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 17.63
+      "pct": 17.58
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 2205408,
-      "pct": 14.28
+      "bytes": 2254543,
+      "pct": 14.55
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1411482,
-      "pct": 9.14
+      "bytes": 1412079,
+      "pct": 9.12
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
       "bytes": 528557,
-      "pct": 3.42
+      "pct": 3.41
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 2.14
+      "pct": 2.13
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.39
+      "pct": 1.38
     },
     {
       "name": "PowerShell",
@@ -295,7 +295,7 @@
   ],
   "display": {
     "repoCount": 28,
-    "totalCommits": 1522,
+    "totalCommits": 1543,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
@@ -321,8 +321,8 @@
       },
       {
         "display": "slay-hub",
-        "mine": 120,
-        "pct": 17.7
+        "mine": 141,
+        "pct": 20.8
       },
       {
         "display": "CoreBIM-AI",
