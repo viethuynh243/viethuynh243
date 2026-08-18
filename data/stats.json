@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-17",
+  "generatedAt": "2026-08-18",
   "repoCount": 28,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 75,
+      "total": 78,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
-    "dim-engine": {
-      "mine": 1,
-      "total": 1,
-      "private": true,
-      "url": "https://github.com/viethuynh243/dim-engine"
-    },
     "slay-hub": {
-      "mine": 147,
-      "total": 186,
+      "mine": 150,
+      "total": 193,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
+    },
+    "dim-engine": {
+      "mine": 76,
+      "total": 76,
+      "private": true,
+      "url": "https://github.com/viethuynh243/dim-engine"
     },
     "TEDI-BRAIN": {
       "mine": 160,
@@ -194,61 +194,61 @@
       "name": "Python",
       "color": "#3572A5",
       "bytes": 7824029,
-      "pct": 49.73
+      "pct": 48.65
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 17.3
+      "pct": 16.93
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 2428533,
-      "pct": 15.44
+      "bytes": 2696901,
+      "pct": 16.77
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1412079,
-      "pct": 8.97
+      "bytes": 1412963,
+      "pct": 8.79
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 548450,
-      "pct": 3.49
+      "bytes": 627664,
+      "pct": 3.9
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 2.1
+      "pct": 2.05
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.36
+      "pct": 1.33
     },
     {
       "name": "PowerShell",
       "color": "#012456",
       "bytes": 142807,
-      "pct": 0.91
+      "pct": 0.89
     },
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 66252,
-      "pct": 0.42
+      "bytes": 66471,
+      "pct": 0.41
     },
     {
       "name": "Astro",
       "color": "#ff5a03",
       "bytes": 29309,
-      "pct": 0.19
+      "pct": 0.18
     },
     {
       "name": "Inno Setup",
@@ -295,7 +295,7 @@
   ],
   "display": {
     "repoCount": 28,
-    "totalCommits": 1559,
+    "totalCommits": 1562,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
@@ -321,8 +321,8 @@
       },
       {
         "display": "slay-hub",
-        "mine": 147,
-        "pct": 21.4
+        "mine": 150,
+        "pct": 21.8
       },
       {
         "display": "CoreBIM-AI",
