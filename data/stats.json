@@ -1,18 +1,24 @@
 {
-  "generatedAt": "2026-08-18",
-  "repoCount": 28,
+  "generatedAt": "2026-08-19",
+  "repoCount": 29,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 78,
+      "total": 81,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
     "slay-hub": {
-      "mine": 150,
-      "total": 193,
+      "mine": 170,
+      "total": 213,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
+    },
+    "SASPro-Py": {
+      "mine": 13,
+      "total": 13,
+      "private": true,
+      "url": "https://github.com/viethuynh243/SASPro-Py"
     },
     "dim-engine": {
       "mine": 76,
@@ -193,56 +199,56 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 7824029,
-      "pct": 48.65
+      "bytes": 7825208,
+      "pct": 48.14
+    },
+    {
+      "name": "TypeScript",
+      "color": "#3178c6",
+      "bytes": 2849721,
+      "pct": 17.53
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 16.93
-    },
-    {
-      "name": "TypeScript",
-      "color": "#3178c6",
-      "bytes": 2696901,
-      "pct": 16.77
+      "pct": 16.75
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1412963,
-      "pct": 8.79
+      "bytes": 1424295,
+      "pct": 8.76
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 627664,
-      "pct": 3.9
+      "bytes": 628436,
+      "pct": 3.87
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 2.05
+      "pct": 2.03
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.33
+      "pct": 1.32
     },
     {
       "name": "PowerShell",
       "color": "#012456",
       "bytes": 142807,
-      "pct": 0.89
+      "pct": 0.88
     },
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 66471,
-      "pct": 0.41
+      "bytes": 71652,
+      "pct": 0.44
     },
     {
       "name": "Astro",
@@ -294,8 +300,8 @@
     }
   ],
   "display": {
-    "repoCount": 28,
-    "totalCommits": 1562,
+    "repoCount": 29,
+    "totalCommits": 1582,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
@@ -315,14 +321,14 @@
         "pct": 24.7
       },
       {
+        "display": "slay-hub",
+        "mine": 170,
+        "pct": 24.7
+      },
+      {
         "display": "TEDI-BRAIN",
         "mine": 160,
         "pct": 23.3
-      },
-      {
-        "display": "slay-hub",
-        "mine": 150,
-        "pct": 21.8
       },
       {
         "display": "CoreBIM-AI",
