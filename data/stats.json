@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-20",
+  "generatedAt": "2026-08-21",
   "repoCount": 29,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 84,
+      "total": 87,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
     "slay-hub": {
-      "mine": 187,
-      "total": 230,
+      "mine": 209,
+      "total": 252,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
     },
@@ -199,55 +199,55 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 8871438,
-      "pct": 51.07
+      "bytes": 8889215,
+      "pct": 50.33
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 2896535,
-      "pct": 16.67
+      "bytes": 3130288,
+      "pct": 17.72
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 15.67
+      "pct": 15.42
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1424295,
-      "pct": 8.2
+      "bytes": 1461748,
+      "pct": 8.28
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 628436,
-      "pct": 3.62
+      "bytes": 628822,
+      "pct": 3.56
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 1.9
+      "pct": 1.87
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.23
+      "pct": 1.21
     },
     {
       "name": "PowerShell",
       "color": "#012456",
       "bytes": 150783,
-      "pct": 0.87
+      "pct": 0.85
     },
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 88838,
+      "bytes": 89199,
       "pct": 0.51
     },
     {
@@ -301,7 +301,7 @@
   ],
   "display": {
     "repoCount": 29,
-    "totalCommits": 1803,
+    "totalCommits": 1825,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
@@ -322,8 +322,8 @@
       },
       {
         "display": "slay-hub",
-        "mine": 187,
-        "pct": 27.1
+        "mine": 209,
+        "pct": 30.3
       },
       {
         "display": "MCOC Python",
