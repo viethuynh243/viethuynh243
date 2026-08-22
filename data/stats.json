@@ -1,18 +1,30 @@
 {
-  "generatedAt": "2026-08-21",
+  "generatedAt": "2026-08-22",
   "repoCount": 29,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 87,
+      "total": 90,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
     "slay-hub": {
-      "mine": 209,
-      "total": 252,
+      "mine": 217,
+      "total": 260,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
+    },
+    "security-lab": {
+      "mine": 0,
+      "total": 4,
+      "private": true,
+      "url": "https://github.com/viethuynh243/security-lab"
+    },
+    "dim-engine": {
+      "mine": 76,
+      "total": 76,
+      "private": true,
+      "url": "https://github.com/viethuynh243/dim-engine"
     },
     "TEDI-BRAIN": {
       "mine": 363,
@@ -25,12 +37,6 @@
       "total": 15,
       "private": true,
       "url": "https://github.com/viethuynh243/SASPro-Py"
-    },
-    "dim-engine": {
-      "mine": 76,
-      "total": 76,
-      "private": true,
-      "url": "https://github.com/viethuynh243/dim-engine"
     },
     "TEDI-Vision": {
       "mine": 25,
@@ -79,12 +85,6 @@
       "total": 7,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243.github.io"
-    },
-    "security-lab": {
-      "mine": 0,
-      "total": 1,
-      "private": true,
-      "url": "https://github.com/viethuynh243/security-lab"
     },
     "Response2000-RE": {
       "mine": 20,
@@ -199,62 +199,62 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 8889215,
-      "pct": 50.33
+      "bytes": 8898101,
+      "pct": 48.78
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 3130288,
-      "pct": 17.72
+      "bytes": 3149964,
+      "pct": 17.27
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 15.42
+      "pct": 14.92
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1461748,
-      "pct": 8.28
+      "bytes": 1497810,
+      "pct": 8.21
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 628822,
-      "pct": 3.56
+      "bytes": 1138635,
+      "pct": 6.24
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 1.87
+      "pct": 1.81
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.21
+      "pct": 1.18
     },
     {
       "name": "PowerShell",
       "color": "#012456",
       "bytes": 150783,
-      "pct": 0.85
+      "pct": 0.83
     },
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 89199,
-      "pct": 0.51
+      "bytes": 95892,
+      "pct": 0.53
     },
     {
       "name": "Astro",
       "color": "#ff5a03",
       "bytes": 29309,
-      "pct": 0.17
+      "pct": 0.16
     },
     {
       "name": "Inno Setup",
@@ -266,7 +266,7 @@
       "name": "Dockerfile",
       "color": "#384d54",
       "bytes": 4557,
-      "pct": 0.03
+      "pct": 0.02
     },
     {
       "name": "VBScript",
@@ -278,7 +278,7 @@
       "name": "Swift",
       "color": "#F05138",
       "bytes": 900,
-      "pct": 0.01
+      "pct": 0
     },
     {
       "name": "Mako",
@@ -301,7 +301,7 @@
   ],
   "display": {
     "repoCount": 29,
-    "totalCommits": 1825,
+    "totalCommits": 1833,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
@@ -322,8 +322,8 @@
       },
       {
         "display": "slay-hub",
-        "mine": 209,
-        "pct": 30.3
+        "mine": 217,
+        "pct": 31.5
       },
       {
         "display": "MCOC Python",
