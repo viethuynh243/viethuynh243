@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-24",
+  "generatedAt": "2026-08-25",
   "repoCount": 29,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 95,
+      "total": 98,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
     "slay-hub": {
-      "mine": 243,
-      "total": 298,
+      "mine": 262,
+      "total": 324,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
     },
@@ -200,43 +200,43 @@
       "name": "Python",
       "color": "#3572A5",
       "bytes": 8898101,
-      "pct": 48
+      "pct": 47.63
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 3361328,
-      "pct": 18.13
+      "bytes": 3485679,
+      "pct": 18.66
     },
     {
       "name": "C#",
       "color": "#178600",
       "bytes": 2722637,
-      "pct": 14.69
+      "pct": 14.57
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
       "bytes": 1570678,
-      "pct": 8.47
+      "pct": 8.41
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 1149632,
-      "pct": 6.2
+      "bytes": 1166187,
+      "pct": 6.24
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 1.78
+      "pct": 1.77
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.16
+      "pct": 1.15
     },
     {
       "name": "PowerShell",
@@ -247,7 +247,7 @@
     {
       "name": "Shell",
       "color": "#89e051",
-      "bytes": 95892,
+      "bytes": 97543,
       "pct": 0.52
     },
     {
@@ -260,7 +260,7 @@
       "name": "Inno Setup",
       "color": "#264b99",
       "bytes": 6497,
-      "pct": 0.04
+      "pct": 0.03
     },
     {
       "name": "Dockerfile",
@@ -301,7 +301,7 @@
   ],
   "display": {
     "repoCount": 29,
-    "totalCommits": 1861,
+    "totalCommits": 1880,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
@@ -317,8 +317,8 @@
       },
       {
         "display": "slay-hub",
-        "mine": 243,
-        "pct": 35.3
+        "mine": 262,
+        "pct": 38
       },
       {
         "display": "STEMSquad",
