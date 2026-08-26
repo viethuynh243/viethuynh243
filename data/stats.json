@@ -1,18 +1,24 @@
 {
-  "generatedAt": "2026-08-25",
+  "generatedAt": "2026-08-26",
   "repoCount": 29,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 98,
+      "total": 101,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
     "slay-hub": {
-      "mine": 262,
-      "total": 324,
+      "mine": 267,
+      "total": 354,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
+    },
+    "dim-engine": {
+      "mine": 76,
+      "total": 76,
+      "private": true,
+      "url": "https://github.com/viethuynh243/dim-engine"
     },
     "TEDI-BRAIN": {
       "mine": 363,
@@ -37,12 +43,6 @@
       "total": 4,
       "private": true,
       "url": "https://github.com/viethuynh243/security-lab"
-    },
-    "dim-engine": {
-      "mine": 76,
-      "total": 76,
-      "private": true,
-      "url": "https://github.com/viethuynh243/dim-engine"
     },
     "SASPro-Py": {
       "mine": 15,
@@ -200,61 +200,61 @@
       "name": "Python",
       "color": "#3572A5",
       "bytes": 8898101,
-      "pct": 47.63
+      "pct": 46.3
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 3485679,
-      "pct": 18.66
+      "bytes": 3860615,
+      "pct": 20.09
     },
     {
       "name": "C#",
-      "color": "#178600",
+      "color": "#7355dd",
       "bytes": 2722637,
-      "pct": 14.57
+      "pct": 14.17
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1570678,
-      "pct": 8.41
+      "bytes": 1586506,
+      "pct": 8.25
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 1166187,
-      "pct": 6.24
+      "bytes": 1314626,
+      "pct": 6.84
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 1.77
+      "pct": 1.72
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.15
+      "pct": 1.12
     },
     {
       "name": "PowerShell",
       "color": "#012456",
       "bytes": 150783,
-      "pct": 0.81
+      "pct": 0.78
     },
     {
       "name": "Shell",
       "color": "#89e051",
       "bytes": 97543,
-      "pct": 0.52
+      "pct": 0.51
     },
     {
       "name": "Astro",
       "color": "#ff5a03",
       "bytes": 29309,
-      "pct": 0.16
+      "pct": 0.15
     },
     {
       "name": "Inno Setup",
@@ -301,7 +301,7 @@
   ],
   "display": {
     "repoCount": 29,
-    "totalCommits": 1880,
+    "totalCommits": 1885,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
@@ -317,8 +317,8 @@
       },
       {
         "display": "slay-hub",
-        "mine": 262,
-        "pct": 38
+        "mine": 267,
+        "pct": 38.8
       },
       {
         "display": "STEMSquad",
