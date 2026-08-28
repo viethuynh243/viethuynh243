@@ -1,16 +1,22 @@
 {
-  "generatedAt": "2026-08-26",
+  "generatedAt": "2026-08-28",
   "repoCount": 29,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 101,
+      "total": 104,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
+    "TEDI-Vision": {
+      "mine": 25,
+      "total": 25,
+      "private": true,
+      "url": "https://github.com/viethuynh243/TEDI-Vision"
+    },
     "slay-hub": {
-      "mine": 267,
-      "total": 354,
+      "mine": 273,
+      "total": 363,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub"
     },
@@ -25,12 +31,6 @@
       "total": 363,
       "private": true,
       "url": "https://github.com/viethuynh243/TEDI-BRAIN"
-    },
-    "TEDI-Vision": {
-      "mine": 25,
-      "total": 25,
-      "private": true,
-      "url": "https://github.com/viethuynh243/TEDI-Vision"
     },
     "CoreBIM_AI_Platform": {
       "mine": 50,
@@ -200,43 +200,43 @@
       "name": "Python",
       "color": "#3572A5",
       "bytes": 8898101,
-      "pct": 46.3
+      "pct": 46.03
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 3860615,
-      "pct": 20.09
+      "bytes": 3955955,
+      "pct": 20.46
     },
     {
       "name": "C#",
       "color": "#7355dd",
       "bytes": 2722637,
-      "pct": 14.17
+      "pct": 14.08
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1586506,
-      "pct": 8.25
+      "bytes": 1586910,
+      "pct": 8.21
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 1314626,
-      "pct": 6.84
+      "bytes": 1332306,
+      "pct": 6.89
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 1.72
+      "pct": 1.71
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 1.12
+      "pct": 1.11
     },
     {
       "name": "PowerShell",
@@ -248,7 +248,7 @@
       "name": "Shell",
       "color": "#89e051",
       "bytes": 97543,
-      "pct": 0.51
+      "pct": 0.5
     },
     {
       "name": "Astro",
@@ -301,7 +301,7 @@
   ],
   "display": {
     "repoCount": 29,
-    "totalCommits": 1885,
+    "totalCommits": 1891,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
@@ -317,8 +317,8 @@
       },
       {
         "display": "slay-hub",
-        "mine": 267,
-        "pct": 38.8
+        "mine": 273,
+        "pct": 39.6
       },
       {
         "display": "STEMSquad",
