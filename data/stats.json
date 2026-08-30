@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-29",
+  "generatedAt": "2026-08-30",
   "repoCount": 29,
   "repos": {
     "viethuynh243": {
       "mine": 24,
-      "total": 110,
+      "total": 112,
       "private": false,
       "url": "https://github.com/viethuynh243/viethuynh243"
     },
@@ -189,8 +189,8 @@
       "url": "https://github.com/manh354/SapLichThiWeb-BachKhoa"
     },
     "tieu-mich": {
-      "mine": 719,
-      "total": 719,
+      "mine": 729,
+      "total": 729,
       "private": true,
       "url": "https://github.com/hethongsieucapbot/tieu-mich"
     }
@@ -199,38 +199,38 @@
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 10945645,
-      "pct": 49.99
+      "bytes": 11021791,
+      "pct": 50.17
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
       "bytes": 4307990,
-      "pct": 19.68
+      "pct": 19.61
     },
     {
       "name": "C#",
       "color": "#7355dd",
       "bytes": 2722637,
-      "pct": 12.44
+      "pct": 12.39
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
       "bytes": 1627329,
-      "pct": 7.43
+      "pct": 7.41
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
       "bytes": 1393298,
-      "pct": 6.36
+      "pct": 6.34
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
       "bytes": 330409,
-      "pct": 1.51
+      "pct": 1.5
     },
     {
       "name": "Go",
@@ -301,49 +301,49 @@
   ],
   "display": {
     "repoCount": 29,
-    "totalCommits": 2197,
+    "totalCommits": 2207,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
       {
         "display": "tieu-mich",
-        "mine": 719,
+        "mine": 729,
         "pct": 100
       },
       {
         "display": "TEDI-BRAIN",
         "mine": 612,
-        "pct": 85.1
+        "pct": 84
       },
       {
         "display": "slay-hub",
         "mine": 300,
-        "pct": 41.7
+        "pct": 41.2
       },
       {
         "display": "STEMSquad",
         "mine": 228,
-        "pct": 31.7
+        "pct": 31.3
       },
       {
         "display": "MCOC Python",
         "mine": 170,
-        "pct": 23.6
+        "pct": 23.3
       },
       {
         "display": "CoreBIM-AI",
         "mine": 50,
-        "pct": 7
+        "pct": 6.9
       },
       {
         "display": "OptApp",
         "mine": 36,
-        "pct": 5
+        "pct": 4.9
       },
       {
         "display": "TEDI-Vision",
         "mine": 25,
-        "pct": 3.5
+        "pct": 3.4
       }
     ]
   }
