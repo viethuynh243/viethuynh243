@@ -12,35 +12,176 @@
     {
       "title": "Structural and geotechnical, at TEDI",
       "projects": [
-        { "repo": "Mcoc-python", "owner": "PhamVu1505", "display": "MCOC Python", "private": true, "link": null, "stack": "Python · PySide6", "desc": "Full port of MCOC, the in-house spatial rigid pile-cap analysis package, from VB6 to Python. Deviation against the original engine stays under 0.1% across the whole test corpus. Ships a Qt desktop app, CLI, batch mode, Excel and PDF reports, section audit and licensing. Co-authored." },
-        { "repo": "OptApp", "display": "OptApp", "private": false, "link": "https://github.com/viethuynh243/OptApp", "stack": "Python · Tkinter", "desc": "Cuts pile count on bridge foundations. NSGA-II search, every candidate scored by the exact MCOC engine rather than a surrogate, because contractors only accept exact numbers." },
-        { "repo": "TEDI-Vision", "display": "TEDI-Vision", "private": true, "link": null, "stack": "Python · OCR", "desc": "Borehole PDFs in, pile-capacity table out. Deterministic rules on TCVN 11823-10:2017, plus a review sheet flagging every cell an engineer must check. It reads, it does not guess." },
-        { "repo": "TEDI-BRAIN", "display": "TEDI-BRAIN", "private": true, "link": null, "stack": "Python", "desc": "Flags expired standards cited in bridge and road design dossiers, resolving every TCVN and QCVN reference against its current legal status." },
-        { "repo": "geosct", "display": "geosct", "private": true, "link": null, "stack": "Python · YAML", "desc": "Pile capacity as an importable library. Soil profile in, capacity out, engineer in the loop." }
+        {
+          "repo": "Mcoc-python",
+          "owner": "PhamVu1505",
+          "display": "MCOC Python",
+          "private": true,
+          "link": null,
+          "stack": "Python · PySide6",
+          "desc": "Full port of MCOC, the in-house spatial rigid pile-cap analysis package, from VB6 to Python. Deviation against the original engine stays under 0.1% across the whole test corpus. Ships a Qt desktop app, CLI, batch mode, Excel and PDF reports, section audit and licensing. Co-authored."
+        },
+        {
+          "repo": "OptApp",
+          "display": "OptApp",
+          "private": false,
+          "link": "https://github.com/viethuynh243/OptApp",
+          "stack": "Python · Tkinter",
+          "desc": "Cuts pile count on bridge foundations. NSGA-II search, every candidate scored by the exact MCOC engine rather than a surrogate, because contractors only accept exact numbers."
+        },
+        {
+          "repo": "TEDI-Vision",
+          "display": "TEDI-Vision",
+          "private": true,
+          "link": null,
+          "stack": "Python · OCR",
+          "desc": "Borehole PDFs in, pile-capacity table out. Deterministic rules on TCVN 11823-10:2017, plus a review sheet flagging every cell an engineer must check. It reads, it does not guess."
+        },
+        {
+          "repo": "TEDI-BRAIN",
+          "display": "TEDI-BRAIN",
+          "private": true,
+          "link": null,
+          "stack": "Python",
+          "desc": "Flags expired standards cited in bridge and road design dossiers, resolving every TCVN and QCVN reference against its current legal status."
+        },
+        {
+          "repo": "geosct",
+          "display": "geosct",
+          "private": true,
+          "link": null,
+          "stack": "Python · YAML",
+          "desc": "Pile capacity as an importable library. Soil profile in, capacity out, engineer in the loop."
+        },
+        {
+          "repo": "dim-engine",
+          "display": "dim-engine",
+          "private": true,
+          "link": null,
+          "stack": "Python",
+          "desc": "Automatic dimensioning engine for transport-infrastructure drawings, specified and tested against a corpus of real TEDI sheets."
+        },
+        {
+          "repo": "gaotie-HN-HL",
+          "display": "gaotie",
+          "private": true,
+          "link": null,
+          "stack": "JavaScript",
+          "desc": "Input front end for pile-cap and pier-shaft parameters on a high-speed railway bridge package. Sixteen validation rules check every drawing value before it reaches the design team."
+        }
       ]
     },
     {
       "title": "Optimization and research",
       "projects": [
-        { "repo": "BaoPhuCam", "display": "BaoPhuCam", "private": false, "link": "https://github.com/viethuynh243/BaoPhuCam", "stack": "Python", "desc": "Places surveillance cameras for maximum coverage, running line-of-sight over a real master plan where buildings, trees and water all block. Deployed at Jackfruit Village." },
-        { "repo": "SapLichThiWeb-BachKhoa", "owner": "manh354", "display": "SapLichThiWeb", "private": true, "link": null, "stack": ".NET 8 · Blazor", "desc": "Exam scheduling for HUST: multi-phase graph coloring, bin packing and simulated annealing, solver progress streaming to the browser. Algorithm design mine (co-author, Q1 paper in review); implementation is a team effort." }
+        {
+          "repo": "BaoPhuCam",
+          "display": "BaoPhuCam",
+          "private": false,
+          "link": "https://github.com/viethuynh243/BaoPhuCam",
+          "stack": "Python",
+          "desc": "Places surveillance cameras for maximum coverage, running line-of-sight over a real master plan where buildings, trees and water all block. Deployed at Jackfruit Village."
+        },
+        {
+          "repo": "SapLichThiWeb-BachKhoa",
+          "owner": "manh354",
+          "display": "SapLichThiWeb",
+          "private": true,
+          "link": null,
+          "stack": ".NET 8 · Blazor",
+          "desc": "Exam scheduling for HUST: multi-phase graph coloring, bin packing and simulated annealing, solver progress streaming to the browser. Algorithm design mine (co-author, Q1 paper in review); implementation is a team effort."
+        }
       ]
     },
     {
       "title": "Platforms",
       "projects": [
-        { "repo": "STEMSquad", "display": "STEMSquad", "private": true, "link": null, "stack": "React · Supabase", "desc": "Runs a student organization end to end: members, projects, finance, inventory, CRM and HR. 64 tables across 13 domains, migration-first." },
-        { "repo": "CoreBIM_AI_Platform", "display": "CoreBIM-AI", "private": true, "link": null, "stack": "React 19 · Express", "desc": "Web platform for TEDI's CoreBIM-AI unit. React 19 SPA, Express 5 API, one compose file for the whole stack." },
-        { "repo": "slay-hub", "display": "slay-hub", "private": true, "link": null, "stack": "TypeScript · Supabase", "desc": "Check-in, CMS and admin console for a community org, on Supabase edge functions." },
-        { "repo": "36streets", "display": "36streets", "private": true, "link": null, "stack": "Flutter · Go · MongoDB", "desc": "AI trip planner. Swap a stop and the rest of the day reschedules around it. Group expense splitting included." }
+        {
+          "repo": "STEMSquad",
+          "display": "STEMSquad",
+          "private": true,
+          "link": null,
+          "stack": "React · Supabase",
+          "desc": "Runs a student organization end to end: members, projects, finance, inventory, CRM and HR. 64 tables across 13 domains, migration-first."
+        },
+        {
+          "repo": "CoreBIM_AI_Platform",
+          "display": "CoreBIM-AI",
+          "private": true,
+          "link": null,
+          "stack": "React 19 · Express",
+          "desc": "Web platform for TEDI's CoreBIM-AI unit. React 19 SPA, Express 5 API, one compose file for the whole stack."
+        },
+        {
+          "repo": "slay-hub",
+          "display": "slay-hub",
+          "private": true,
+          "link": null,
+          "stack": "TypeScript · Supabase",
+          "desc": "Check-in, CMS and admin console for a community org, on Supabase edge functions."
+        },
+        {
+          "repo": "36streets",
+          "display": "36streets",
+          "private": true,
+          "link": null,
+          "stack": "Flutter · Go · MongoDB",
+          "desc": "AI trip planner. Swap a stop and the rest of the day reschedules around it. Group expense splitting included."
+        }
       ]
     },
     {
       "title": "AI agents and tooling",
       "projects": [
-        { "repo": "tieu-mich", "owner": "hethongsieucapbot", "display": "tieu-mich", "private": true, "link": null, "stack": "Python · Claude API", "desc": "Discord butler on a Claude tool-calling loop over a RAG knowledge base, with minigames, voice tracking and a ticket queue. My largest codebase." },
-        { "repo": "agentic-seo-marketing", "display": "agentic-seo-marketing", "private": false, "link": "https://github.com/viethuynh243/agentic-seo-marketing", "stack": "Astro · React · Vercel", "desc": "Astro SSG engine plus a React control dashboard, with serverless connectors for GSC, GA4, Meta and TikTok." },
-        { "repo": "kpi-google-sheets-onedrive-automation", "display": "kpi-sheets-onedrive", "private": false, "link": "https://github.com/viethuynh243/kpi-google-sheets-onedrive-automation", "stack": "Python", "desc": "Moves KPI data between Google Sheets and OneDrive on a schedule." }
+        {
+          "repo": "tieu-mich",
+          "owner": "hethongsieucapbot",
+          "display": "tieu-mich",
+          "private": true,
+          "link": null,
+          "stack": "Python · Claude API",
+          "desc": "Discord butler on a Claude tool-calling loop over a RAG knowledge base, with minigames, voice tracking and a ticket queue. My largest codebase."
+        },
+        {
+          "repo": "ZeroMem",
+          "display": "ZeroMem",
+          "private": false,
+          "link": "https://github.com/viethuynh243/ZeroMem",
+          "stack": "Python · BM25",
+          "desc": "Long-term memory for Claude Code at zero token cost. Indexes past session transcripts into an entity-context graph plus a temporal hierarchy, retrieves evidence deterministically, no LLM call in the pipeline."
+        },
+        {
+          "repo": "video-studio",
+          "display": "video-studio",
+          "private": false,
+          "link": "https://github.com/viethuynh243/video-studio",
+          "stack": "Python · FFmpeg · MCP",
+          "desc": "Claude Code skill and 21-tool MCP server that cuts films from a storyboard, re-voices in Northern Vietnamese, subtitles, fixes judder and runs QC before delivery. Every on-screen number must trace to a source."
+        },
+        {
+          "repo": "luan-giai-ba-he",
+          "display": "luan-giai-ba-he",
+          "private": true,
+          "link": null,
+          "stack": "Python · Node",
+          "desc": "Claude skill that reads charts in three traditions, with every sentence checkable: charts rebuilt in code, quotations fetched and verified, negative controls that must fail, and a 70% vote before any conclusion."
+        },
+        {
+          "repo": "agentic-seo-marketing",
+          "display": "agentic-seo-marketing",
+          "private": false,
+          "link": "https://github.com/viethuynh243/agentic-seo-marketing",
+          "stack": "Astro · React · Vercel",
+          "desc": "Astro SSG engine plus a React control dashboard, with serverless connectors for GSC, GA4, Meta and TikTok."
+        },
+        {
+          "repo": "kpi-google-sheets-onedrive-automation",
+          "display": "kpi-sheets-onedrive",
+          "private": false,
+          "link": "https://github.com/viethuynh243/kpi-google-sheets-onedrive-automation",
+          "stack": "Python",
+          "desc": "Moves KPI data between Google Sheets and OneDrive on a schedule."
+        }
       ]
     }
   ]

@@ -42,6 +42,11 @@ viethuynh243.github.io/index.html  fetches data/stats.json at page load
 | README `## Work` block | rendered table between `<!-- STATS:START/END -->` | **no** — generated |
 | `assets/activity.svg` | commit bar chart | **no** — generated |
 
+### The "Active" column
+Repo creation month → month of the newest default-branch commit, both from GraphQL
+(`createdAt`, `committedDate`). Rows inside each group sort by most recent commit, so new
+work rises to the top on its own.
+
 ### To change a project's description or stack
 Edit `data/projects.json`, then either push (the nightly job re-renders) or run
 `node scripts/render.mjs` locally and commit. `render.mjs` needs no token.
@@ -84,6 +89,9 @@ Both honour `prefers-reduced-motion`.
 
 ## Deliberately excluded
 
-Reverse-engineering repositories (`Response2000-RE`, `spColumn-RE`) and `security-lab` stay
-off the profile. Their capability still shows under **Security** and **What I bring**: the
-skill is named, the repositories are not.
+Reverse-engineering work and the security lab stay off the profile.
+Their capability still shows under **Security** and **What I bring**: the skill is named,
+the repositories are not. Do not name them here either, this file is public.
+
+`collect-stats.mjs` enforces this: `data/stats.json` only publishes repos listed in
+`data/projects.json`. A repo you leave out of `projects.json` never appears by name or URL.

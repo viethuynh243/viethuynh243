@@ -6,6 +6,8 @@
 //                        config.authorEmails (so commits made under an email not
 //                        linked to your account still count).
 //   repos.<name>.total = all commits on the default branch (for the "N of M" split).
+//   repos.<name>.createdAt / lastCommit = repo creation date and the newest commit on
+//                        the default branch (YYYY-MM-DD), shown as the "Active" column.
 //   languages          = bytes per language across your OWNER repos, prose filtered.
 //
 // It queries (a) every non-fork repo you OWN, plus (b) any repo named in
@@ -44,7 +46,9 @@ const REPO_FIELDS = `
   name
   isPrivate
   url
+  createdAt
   defaultBranchRef { target { ... on Commit {
+    committedDate
     mine: history(author: { emails: $emails }) { totalCount }
     all:  history { totalCount }
   } } }
@@ -68,6 +72,8 @@ function absorb(node) {
     total: t?.all?.totalCount ?? 0,
     private: !!node.isPrivate,
     url: node.url,
+    createdAt: node.createdAt?.slice(0, 10) ?? null,
+    lastCommit: t?.committedDate?.slice(0, 10) ?? null,
   };
   if (!projectRepoNames.has(node.name)) return;   // languages: projects only
   for (const e of node.languages?.edges || []) {
@@ -127,7 +133,12 @@ const languages = Object.entries(langBytes)
 // generatedAt without Date.now-in-a-workflow concerns: use the runner's date via env if present.
 const stamp = (process.env.STATS_DATE || new Date().toISOString()).slice(0, 10);
 
-const out = { generatedAt: stamp, repoCount: ownerCount, repos, languages };
+// stats.json is public: publish only the repos listed in projects.json, so an unlisted
+// private repo (client work under NDA, labs) never leaks its name or URL. repoCount
+// stays the full owner count.
+const published = Object.fromEntries(Object.entries(repos).filter(([name]) => projectRepoNames.has(name)));
+
+const out = { generatedAt: stamp, repoCount: ownerCount, repos: published, languages };
 await mkdir(resolve(ROOT, "data"), { recursive: true });
 await writeFile(resolve(ROOT, "data/stats.json"), JSON.stringify(out, null, 2) + "\n");
 console.log(`Wrote data/stats.json — ${Object.keys(repos).length} repos, ${languages.length} languages.`);
