@@ -159,14 +159,6 @@
           "desc": "Claude Code skill and 21-tool MCP server that cuts films from a storyboard, re-voices in Northern Vietnamese, subtitles, fixes judder and runs QC before delivery. Every on-screen number must trace to a source."
         },
         {
-          "repo": "luan-giai-ba-he",
-          "display": "luan-giai-ba-he",
-          "private": true,
-          "link": null,
-          "stack": "Python · Node",
-          "desc": "Claude skill that reads charts in three traditions, with every sentence checkable: charts rebuilt in code, quotations fetched and verified, negative controls that must fail, and a 70% vote before any conclusion."
-        },
-        {
           "repo": "agentic-seo-marketing",
           "display": "agentic-seo-marketing",
           "private": false,

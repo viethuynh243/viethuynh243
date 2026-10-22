@@ -127,13 +127,6 @@
       "mine": 4,
       "total": 4,
       "lastCommit": "2026-10-17"
-    },
-    "luan-giai-ba-he": {
-      "private": true,
-      "url": "https://github.com/viethuynh243/luan-giai-ba-he",
-      "mine": 8,
-      "total": 114,
-      "lastCommit": "2026-10-20"
     }
   },
   "languages": [
@@ -242,7 +235,7 @@
   ],
   "display": {
     "repoCount": 29,
-    "totalCommits": 4758,
+    "totalCommits": 4750,
     "languageCount": 17,
     "activeSince": 2024,
     "activity": [
