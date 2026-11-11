@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Viet Huynh, structural and systems engineer in Ha Noi" width="100%" />
+<img src="./assets/hero.svg" alt="Viet Huynh, software engineer for structural and geotechnical design, Ha Noi" width="100%" />
 
 <img src="https://img.shields.io/badge/TEDI-CoreBIM--AI-1f6feb?style=flat-square" alt="" />
 <img src="https://img.shields.io/badge/HUST-Optimization%20research-3fb950?style=flat-square" alt="" />
@@ -15,9 +15,11 @@
 
 ## About
 
-Civil engineering by training, software by practice. Most of what I ship runs inside a
-design office: pile-layout optimizers, section-analysis engines, and document pipelines
-that have to agree with a national standard, not merely look plausible.
+Applied mathematics by training (B.S., Hanoi University of Science and Technology, 2024),
+software by practice. I joined TEDI in 2026 and learned bridge and geotechnical design on the
+job. Most of what I ship runs inside that design office: pile-layout optimizers,
+section-analysis engines, and document pipelines that have to agree with a national
+standard, not merely look plausible.
 
 Rule I work by: **deterministic where an answer must be defensible, models where it must be flexible.**
 
