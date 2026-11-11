@@ -26,6 +26,9 @@ Rule I work by: **deterministic where an answer must be defensible, models where
 ```text
 Focus     bridge foundations · RC & prestressed sections · geotechnical pipelines
 Also      combinatorial optimization · LLM agents, Claude Code skills & MCP · full-stack
+Research  combinatorial & multi-objective optimization · scheduling
+          structural & geotechnical computing · LLMs · AI agents · RAG · document AI
+          cybersecurity · AI security · digital forensics
 Security  GRC · IAM · cryptography · cloud & container · DFIR/CTI · RE · web3
 Stack     Python · C# / .NET · TypeScript · Go · Dart · Rust · SQL
 Reach     github.com/viethuynh243
