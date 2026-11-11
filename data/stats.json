@@ -1,54 +1,85 @@
 {
-  "generatedAt": "2026-10-21",
-  "repoCount": 29,
+  "generatedAt": "2026-11-11",
+  "repoCount": 38,
   "repos": {
     "slay-hub": {
-      "mine": 511,
-      "total": 881,
+      "mine": 729,
+      "total": 999,
       "private": true,
       "url": "https://github.com/viethuynh243/slay-hub",
-      "lastCommit": "2026-10-12"
+      "createdAt": "2026-07-23",
+      "lastCommit": "2026-11-10"
     },
-    "TEDI-BRAIN": {
-      "mine": 1662,
-      "total": 1710,
+    "tieu-mich": {
+      "mine": 2427,
+      "total": 2440,
       "private": true,
-      "url": "https://github.com/viethuynh243/TEDI-BRAIN",
-      "lastCommit": "2026-10-06"
+      "url": "https://github.com/viethuynh243/tieu-mich",
+      "createdAt": "2026-06-29",
+      "lastCommit": "2026-11-10"
     },
     "TEDI-Vision": {
-      "mine": 25,
-      "total": 25,
+      "mine": 26,
+      "total": 149,
       "private": true,
       "url": "https://github.com/viethuynh243/TEDI-Vision",
-      "lastCommit": "2026-07-14"
+      "createdAt": "2026-07-13",
+      "lastCommit": "2026-11-09"
+    },
+    "TEDI-BRAIN": {
+      "mine": 1822,
+      "total": 1835,
+      "private": true,
+      "url": "https://github.com/viethuynh243/TEDI-BRAIN",
+      "createdAt": "2026-07-23",
+      "lastCommit": "2026-11-09"
+    },
+    "video-studio": {
+      "mine": 4,
+      "total": 4,
+      "private": false,
+      "url": "https://github.com/viethuynh243/video-studio",
+      "createdAt": "2026-10-17",
+      "lastCommit": "2026-10-17"
     },
     "dim-engine": {
       "mine": 76,
       "total": 76,
       "private": true,
       "url": "https://github.com/viethuynh243/dim-engine",
+      "createdAt": "2026-08-14",
       "lastCommit": "2026-08-18"
+    },
+    "ZeroMem": {
+      "mine": 59,
+      "total": 59,
+      "private": false,
+      "url": "https://github.com/viethuynh243/ZeroMem",
+      "createdAt": "2026-08-06",
+      "lastCommit": "2026-09-05"
+    },
+    "36streets": {
+      "mine": 13,
+      "total": 17,
+      "private": true,
+      "url": "https://github.com/viethuynh243/36streets",
+      "createdAt": "2026-03-31",
+      "lastCommit": "2026-07-09"
     },
     "CoreBIM_AI_Platform": {
       "mine": 50,
       "total": 67,
       "private": true,
       "url": "https://github.com/viethuynh243/CoreBIM_AI_Platform",
+      "createdAt": "2026-07-23",
       "lastCommit": "2026-08-24"
-    },
-    "ZeroMem": {
-      "mine": 58,
-      "total": 59,
-      "private": false,
-      "url": "https://github.com/viethuynh243/ZeroMem",
-      "lastCommit": "2026-09-05"
     },
     "STEMSquad": {
       "mine": 228,
       "total": 229,
       "private": true,
       "url": "https://github.com/viethuynh243/STEMSquad",
+      "createdAt": "2026-06-11",
       "lastCommit": "2026-08-05"
     },
     "gaotie-HN-HL": {
@@ -56,6 +87,7 @@
       "total": 55,
       "private": true,
       "url": "https://github.com/viethuynh243/gaotie-HN-HL",
+      "createdAt": "2026-08-02",
       "lastCommit": "2026-08-04"
     },
     "geosct": {
@@ -63,20 +95,15 @@
       "total": 2,
       "private": true,
       "url": "https://github.com/viethuynh243/geosct",
+      "createdAt": "2026-06-30",
       "lastCommit": "2026-07-11"
-    },
-    "36streets": {
-      "mine": 13,
-      "total": 17,
-      "private": true,
-      "url": "https://github.com/viethuynh243/36streets",
-      "lastCommit": "2026-07-09"
     },
     "OptApp": {
       "mine": 36,
       "total": 36,
       "private": false,
       "url": "https://github.com/viethuynh243/OptApp",
+      "createdAt": "2026-06-08",
       "lastCommit": "2026-06-28"
     },
     "agentic-seo-marketing": {
@@ -84,6 +111,7 @@
       "total": 1,
       "private": false,
       "url": "https://github.com/viethuynh243/agentic-seo-marketing",
+      "createdAt": "2026-06-22",
       "lastCommit": "2026-06-22"
     },
     "kpi-google-sheets-onedrive-automation": {
@@ -91,6 +119,7 @@
       "total": 8,
       "private": false,
       "url": "https://github.com/viethuynh243/kpi-google-sheets-onedrive-automation",
+      "createdAt": "2026-05-20",
       "lastCommit": "2026-05-20"
     },
     "BaoPhuCam": {
@@ -98,115 +127,126 @@
       "total": 14,
       "private": false,
       "url": "https://github.com/viethuynh243/BaoPhuCam",
+      "createdAt": "2026-02-02",
       "lastCommit": "2026-02-02"
+    },
+    "WebTuVi": {
+      "mine": 3,
+      "total": 3,
+      "private": true,
+      "url": "https://github.com/viethuynh243/WebTuVi",
+      "createdAt": "2026-01-07",
+      "lastCommit": "2026-01-08"
     },
     "Mcoc-python": {
       "mine": 170,
       "total": 180,
       "private": true,
       "url": "https://github.com/PhamVu1505/Mcoc-python",
+      "createdAt": "2026-03-24",
       "lastCommit": "2026-07-17"
     },
     "SapLichThiWeb-BachKhoa": {
-      "mine": 19,
-      "total": 516,
+      "mine": 25,
+      "total": 574,
       "private": true,
       "url": "https://github.com/manh354/SapLichThiWeb-BachKhoa",
-      "lastCommit": "2026-05-16"
+      "createdAt": "2025-04-10",
+      "lastCommit": "2026-10-28"
     },
-    "tieu-mich": {
-      "mine": 1818,
-      "total": 2161,
+    "slay-union": {
+      "mine": 13,
+      "total": 31,
       "private": true,
-      "url": "https://github.com/hethongsieucapbot/tieu-mich",
-      "lastCommit": "2026-10-21"
-    },
-    "video-studio": {
-      "private": false,
-      "url": "https://github.com/viethuynh243/video-studio",
-      "mine": 4,
-      "total": 4,
-      "lastCommit": "2026-10-17"
+      "url": "https://github.com/1512ks/slay-union",
+      "createdAt": "2026-10-30",
+      "lastCommit": "2026-11-03"
     }
   },
   "languages": [
     {
       "name": "Python",
       "color": "#3572A5",
-      "bytes": 11021791,
-      "pct": 50.17
+      "bytes": 26962500,
+      "pct": 60.43
     },
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "bytes": 4307990,
-      "pct": 19.61
+      "bytes": 8018271,
+      "pct": 17.97
     },
     {
       "name": "C#",
       "color": "#7355dd",
-      "bytes": 2722637,
-      "pct": 12.39
+      "bytes": 3268178,
+      "pct": 7.33
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "bytes": 1627329,
-      "pct": 7.41
+      "bytes": 3267415,
+      "pct": 7.32
     },
     {
       "name": "PLpgSQL",
       "color": "#336790",
-      "bytes": 1393298,
-      "pct": 6.34
+      "bytes": 1966508,
+      "pct": 4.41
     },
     {
       "name": "Dart",
       "color": "#00B4AB",
-      "bytes": 330409,
-      "pct": 1.5
+      "bytes": 337902,
+      "pct": 0.76
+    },
+    {
+      "name": "Shell",
+      "color": "#89e051",
+      "bytes": 283202,
+      "pct": 0.63
+    },
+    {
+      "name": "PowerShell",
+      "color": "#012456",
+      "bytes": 251080,
+      "pct": 0.56
     },
     {
       "name": "Go",
       "color": "#00ADD8",
       "bytes": 214405,
-      "pct": 0.98
-    },
-    {
-      "name": "PowerShell",
-      "color": "#012456",
-      "bytes": 179556,
-      "pct": 0.82
-    },
-    {
-      "name": "Shell",
-      "color": "#89e051",
-      "bytes": 129151,
-      "pct": 0.59
+      "pct": 0.48
     },
     {
       "name": "Astro",
       "color": "#ff5a03",
       "bytes": 29309,
-      "pct": 0.13
+      "pct": 0.07
     },
     {
       "name": "Inno Setup",
       "color": "#264b99",
       "bytes": 6497,
-      "pct": 0.03
+      "pct": 0.01
     },
     {
       "name": "Dockerfile",
       "color": "#384d54",
       "bytes": 4557,
-      "pct": 0.02
+      "pct": 0.01
     },
     {
       "name": "VBScript",
       "color": "#15dcdc",
       "bytes": 1984,
-      "pct": 0.01
+      "pct": 0
+    },
+    {
+      "name": "TSQL",
+      "color": "#e38c00",
+      "bytes": 1709,
+      "pct": 0
     },
     {
       "name": "Swift",
@@ -234,50 +274,50 @@
     }
   ],
   "display": {
-    "repoCount": 29,
-    "totalCommits": 4750,
-    "languageCount": 17,
+    "repoCount": 38,
+    "totalCommits": 5761,
+    "languageCount": 18,
     "activeSince": 2024,
     "activity": [
       {
         "display": "tieu-mich",
-        "mine": 1818,
+        "mine": 2427,
         "pct": 100
       },
       {
         "display": "TEDI-BRAIN",
-        "mine": 1662,
-        "pct": 91.4
+        "mine": 1822,
+        "pct": 75.1
       },
       {
         "display": "slay-hub",
-        "mine": 511,
-        "pct": 28.1
+        "mine": 729,
+        "pct": 30
       },
       {
         "display": "STEMSquad",
         "mine": 228,
-        "pct": 12.5
+        "pct": 9.4
       },
       {
         "display": "MCOC Python",
         "mine": 170,
-        "pct": 9.4
+        "pct": 7
       },
       {
         "display": "dim-engine",
         "mine": 76,
-        "pct": 4.2
+        "pct": 3.1
       },
       {
         "display": "ZeroMem",
-        "mine": 58,
-        "pct": 3.2
+        "mine": 59,
+        "pct": 2.4
       },
       {
         "display": "gaotie",
         "mine": 55,
-        "pct": 3
+        "pct": 2.3
       }
     ]
   }

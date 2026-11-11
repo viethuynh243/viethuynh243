@@ -127,6 +127,23 @@
           "link": null,
           "stack": "Flutter · Go · MongoDB",
           "desc": "AI trip planner. Swap a stop and the rest of the day reschedules around it. Group expense splitting included."
+        },
+        {
+          "repo": "slay-union",
+          "owner": "1512ks",
+          "display": "slay-union",
+          "private": true,
+          "link": null,
+          "stack": "TypeScript · Vite · Supabase",
+          "desc": "Front page of a multi-game Discord community: events, news, donations and links out to each game's own site. Discord login with permissions derived from Discord roles, a browser CMS for non-technical admins, and the Tiểu Mịch assistant scoped to the union."
+        },
+        {
+          "repo": "WebTuVi",
+          "display": "WebTuVi",
+          "private": true,
+          "link": null,
+          "stack": ".NET 8 · Flutter · SQL Server",
+          "desc": "Tử vi (Vietnamese horoscope) reading system with AI interpretation. Clean-architecture .NET 8 Web API over a SQL Server knowledge base, with a Flutter client."
         }
       ]
     },
